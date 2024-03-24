@@ -5,6 +5,7 @@ namespace MyWebsite\Components;
 use Dupot\StaticGenerationFramework\Component\ComponentAbstract;
 use Dupot\StaticGenerationFramework\Component\ComponentInterface;
 use MyWebsite\Pages\HomePage;
+use MyWebsite\Pages\PsyOfWorkPage;
 
 class NavComponent extends ComponentAbstract implements ComponentInterface
 {
@@ -20,7 +21,7 @@ class NavComponent extends ComponentAbstract implements ComponentInterface
     {
         $linkList = [
             'Accueil' => HomePage::FILENAME,
-            'La psychologie du travail' => 'todo',
+            'La psychologie du travail' => PsyOfWorkPage::FILENAME,
             'Bilan de compétences' => 'todo',
             'Contact' => 'todo',
         ];
