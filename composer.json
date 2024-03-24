@@ -1,0 +1,21 @@
+{
+    "name": "dupot/static-generation-skeleton",
+    "type": "project",
+    "license": "LGPL-2.1",
+    "autoload": {
+        "psr-4": {
+            "MyWebsite\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Michael Bertocchi",
+            "email": "imikado@gmail.com",
+            "homepage": "https://www.dupot.org",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "dupot/static-generation-framework": "2.*.*"
+    }
+}
