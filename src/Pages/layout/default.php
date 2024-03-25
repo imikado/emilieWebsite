@@ -13,20 +13,22 @@
     :root {
       /* CSS Variables */
 
+      /*hsl(134, 19%, 79%) */
       --custom-color1: hsla(139, 26%, 38%, 1);
       --custom-color2: hsla(178, 31%, 55%, 1);
       --custom-color3: hsl(154, 28%, 65%);
 
       --custom-color5: hsl(46, 72%, 92%);
+
       --bulma-primary: hsla(var(--bulma-primary-h), var(--bulma-primary-s), var(--bulma-primary-l), 1);
       --bulma-primary-h: 139;
       --bulma-primary-s: 26%;
       --bulma-primary-l: 38%;
 
       --bulma-success: hsla(var(--bulma-success-h), var(--bulma-success-s), var(--bulma-success-l), 1);
-      --bulma-success-h: 178;
-      --bulma-success-s: 31%;
-      --bulma-success-l: 55%;
+      --bulma-success-h: 134;
+      --bulma-success-s: 19%;
+      --bulma-success-l: 79%;
 
       --bulma-info: hsla(var(--bulma-info-h), var(--bulma-info-s), var(--bulma-info-l), 1);
       --bulma-info-h: 46;
@@ -41,6 +43,10 @@
 
 
       --bulma-text-strong: var(--custom-color2);
+    }
+
+    body {
+      background: url('css/images/background.jpg');
     }
   </style>
 

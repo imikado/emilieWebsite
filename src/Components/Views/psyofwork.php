@@ -1,4 +1,4 @@
-<section class="hero has-background-info">
+<section class="hero has-background-info mt-6">
     <div class="hero-body">
         <p class="title">"Si le travail peut faire souffrir, c’est avant tout parce qu’il est porteur de nombreuses promesses."</p>
         <p class="subtitle has-text-right is-italic	">Marie Pezé</p>

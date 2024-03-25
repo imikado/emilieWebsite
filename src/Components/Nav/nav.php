@@ -1,4 +1,4 @@
-<nav class="navbar navbar-wrapper navbar-default navbar-fade is-transparent" role="navigation" aria-label="main navigation">
+<nav style="background:rgba(255,255,255,0.8)" class="navbar navbar-wrapper is-fixed-top navbar-default navbar-fade" role="navigation" aria-label="main navigation">
 
     <div class="navbar-brand">
         <a class="navbar-item has-text-primary is-size-3" href="index.html">
@@ -17,7 +17,7 @@
     <div class="navbar-end  " id="navbar-menu">
 
         <?php foreach ($this->paramList['linkList'] as $label => $link) : ?>
-            <a class="navbar-item <?php if ($link == $this->paramList['pageSelected']) : ?>is-active has-background-info has-text-primary<?php endif; ?>" href="<?php echo $link ?>"><?php echo $label ?></a>
+            <a class="navbar-item <?php if ($link == $this->paramList['pageSelected']) : ?>is-active has-background-success has-text-primary<?php endif; ?>" href="<?php echo $link ?>"><?php echo $label ?></a>
         <?php endforeach; ?>
 
     </div>
