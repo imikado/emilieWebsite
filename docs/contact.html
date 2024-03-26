@@ -46,7 +46,10 @@
     }
 
     body {
-      background: url('css/images/background.jpg');
+      background: url('css/images/background.jpg?date=2024-03-26_2251');
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      background-position: center;
     }
   </style>
 
