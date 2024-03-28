@@ -1,8 +1,6 @@
-<section class="hero has-background-info">
-    <div class="hero-body">
-        <p class="title">"TODO"</p>
-        <p class="subtitle has-text-right is-italic	">todo</p>
-    </div>
+<section class="hero has-background-success mt-6">
+
+    &nbsp;
 </section>
 
 <section class="section">
