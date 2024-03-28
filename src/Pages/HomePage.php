@@ -10,6 +10,7 @@ use MyWebsite\Components\ViewComponent;
 class HomePage extends PageAbstract implements PageInterface
 {
     const FILENAME = 'index.html';
+    const DOCTOLIB_LINK = 'https://www.doctolib.fr/psychologue/vincennes/emilie-pereira-vincennes/booking/motives?specialityId=14&amp;telehealth=false&amp;placeId=practice-522234&amp;bookingFunnelSource=profile';
 
     public function getFilename(): string
     {
@@ -23,7 +24,7 @@ class HomePage extends PageAbstract implements PageInterface
             [
                 'nav' => new NavComponent($this->getFilename()),
                 'contentList' => [
-                    new ViewComponent('welcome'),
+                    new ViewComponent('home'),
                 ]
             ]
         );
