@@ -1,14 +1,28 @@
-<section class="hero has-background-info mt-6">
-    <div class="hero-body">
-        <p class="title">"Si le travail peut faire souffrir, c’est avant tout parce qu’il est porteur de nombreuses promesses."</p>
-        <p class="subtitle has-text-right is-italic	">Marie Pezé</p>
-    </div>
+<section class="hero has-background-success mt-6">
+
+    &nbsp;
 </section>
+
 
 <section class="section">
     <div class="container">
 
         <div class="columns">
+
+            <div class="column">
+
+                <div class="block">
+                    <div class="card">
+                        <div class="card-image">
+                            <figure class="image">
+                                <img src="css/images/workPsychology.jpg" alt="Placeholder image" />
+                            </figure>
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
 
             <div class="column">
                 <div class="block is-size-4 has-text-justified	">

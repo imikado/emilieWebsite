@@ -4,8 +4,8 @@ namespace MyWebsite\Pages;
 
 use Dupot\StaticGenerationFramework\Page\PageAbstract;
 use Dupot\StaticGenerationFramework\Page\PageInterface;
-use MyWebsite\Components\ContactComponent;
 use MyWebsite\Components\NavComponent;
+use MyWebsite\Components\ViewComponent;
 
 class ContactPage extends PageAbstract implements PageInterface
 {
@@ -23,7 +23,7 @@ class ContactPage extends PageAbstract implements PageInterface
             [
                 'nav' => new NavComponent($this->getFilename()),
                 'contentList' => [
-                    new ContactComponent(),
+                    new ViewComponent('contact'),
                 ]
             ]
         );

@@ -1,5 +1,6 @@
 <?php
 
+use MyWebsite\Pages\BioPage;
 use MyWebsite\Pages\ContactPage;
 use MyWebsite\Pages\HomePage;
 use MyWebsite\Pages\PsyOfWorkPage;
@@ -12,7 +13,8 @@ $pagesList = [
     new HomePage(),
     new PsyOfWorkPage(),
     new SkillAssesmentPage(),
-    new ContactPage()
+    new ContactPage(),
+    new BioPage()
     //new OtherPage()
 
 ];

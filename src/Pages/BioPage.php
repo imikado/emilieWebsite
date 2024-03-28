@@ -7,9 +7,9 @@ use Dupot\StaticGenerationFramework\Page\PageInterface;
 use MyWebsite\Components\NavComponent;
 use MyWebsite\Components\ViewComponent;
 
-class SkillAssesmentPage extends PageAbstract implements PageInterface
+class BioPage extends PageAbstract implements PageInterface
 {
-    const FILENAME = 'bilan_de_competence.html';
+    const FILENAME = 'bio.html';
 
     public function getFilename(): string
     {
@@ -23,7 +23,7 @@ class SkillAssesmentPage extends PageAbstract implements PageInterface
             [
                 'nav' => new NavComponent($this->getFilename()),
                 'contentList' => [
-                    new ViewComponent('skillAssesment'),
+                    new ViewComponent('bio'),
                 ]
             ]
         );
