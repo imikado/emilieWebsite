@@ -1,5 +1,6 @@
 <?php
 
+use MyWebsite\Pages\ContactPage;
 use MyWebsite\Pages\HomePage;
 use MyWebsite\Pages\PsyOfWorkPage;
 use MyWebsite\Pages\SkillAssesmentPage;
@@ -18,40 +19,38 @@ use MyWebsite\Pages\SkillAssesmentPage;
 
         <div class="columns">
 
-            <div class="column content">
+            <div class="column content has-text-centered">
                 <h1 class="title has-text-primary">Psychologue du travail à Vincennes</h1>
 
-                <div class="block is-size-5 has-text-justified	">
+                <div class="block is-size-5  	">
                     <p>Je suis psychologue du travail et consultante en bilan de compétences à Vincennes (94).</p>
                 </div>
-                <div class="block is-size-5 has-text-justified	">
+                <div class="block is-size-5 	">
 
                     <p>J’accompagne des étudiants, actifs, salariés, demandeurs d’emploi.</p>
                 </div>
-                <div class="block is-size-5 has-text-justified	">
+                <div class="block is-size-5 	">
 
+                    <p>Je vous reçois directement au cabinet situé à Vincennes (94) mais aussi en visio, n’hésitez
+                        pas à me <a class="is-primary" href="<?php echo ContactPage::FILENAME ?>">contacter</a> pour plus d’informations.</p>
+                </div>
+
+                <div class="block is-size-5  	">
+
+                    <p>Je suis disponible les lundi, mardi, jeudi et vendredi, de 9h à 19h.</p>
+
+                </div>
+                <div class="block is-size-5  	">
+                    <p>Vous pouvez prendre rendez-vous via <a href="<?php echo HomePage::DOCTOLIB_LINK ?>"><img src="css/images/DoctolibLogo.png" /></a></p>
 
                 </div>
 
 
             </div>
-            <div class="column">
 
-                <div class="block">
-                    <div class="card">
-                        <div class="card-image">
-                            <figure class="image">
-                                <img src="css/images/sided-view-young-girl-talking-therapist.jpg" alt="Placeholder image" />
-                            </figure>
-                        </div>
-
-                    </div>
-                </div>
-
-            </div>
         </div>
 
-        <div class="block">
+        <div class="block mt-6">
             <h1 class="title has-text-primary has-text-centered">Mes domaines d'intervention</h1>
         </div>
 
@@ -60,18 +59,21 @@ use MyWebsite\Pages\SkillAssesmentPage;
             <div class="column">
 
 
+                <div class="card">
+                    <div class="card-image">
+                        <figure class="image is-4by3">
+                            <img src="css/images/bandeau_psychoDuTravail.jpg" alt="Placeholder image" />
+                        </figure>
+                    </div>
 
-                <div class="block">
-                    <figure class="image is-4by3">
-                        <img src="css/images/home_pyschologieDuTravail.jpg" alt="Placeholder image" />
-                    </figure>
+                    <footer class="card-footer">
+                        <a title="text du Psychologie du travail" class="card-footer-item has-text-primary" href="<?php echo PsyOfWorkPage::FILENAME ?>">
+                            Psychologie du travail</a>
+
+                    </footer>
                 </div>
 
 
-                <div class="block buttons is-centered">
-                    <a class="button is-primary has-text-info" href="<?php echo PsyOfWorkPage::FILENAME ?>">
-                        Psychologie du travail</a>
-                </div>
 
             </div>
 
@@ -79,53 +81,30 @@ use MyWebsite\Pages\SkillAssesmentPage;
 
             <div class="column">
 
+                <div class="card">
+                    <div class="card-image">
+                        <figure class="image is-4by3">
+                            <img src="css/images/home_bilanDeCompetences.jpg" alt="Placeholder image" />
+                        </figure>
+                    </div>
 
-                <div class="block">
+                    <footer class="card-footer">
+                        <a title="text du Psychologie du travail" class="card-footer-item has-text-primary" href="<?php echo SkillAssesmentPage::FILENAME ?>">
+                            Bilan de compétence
+                        </a>
 
-                    <figure class="image is-4by3">
-                        <img src="css/images/home_bilanCompetences.jpg" alt="Placeholder image" />
-                    </figure>
+                    </footer>
                 </div>
 
-                <div class="block buttons is-centered">
-                    <a class="button is-primary  has-text-info" href="<?php echo SkillAssesmentPage::FILENAME ?>">
-                        Bilan de compétence
-                    </a>
-                </div>
+
             </div>
 
 
         </div>
 
 
-        <div class="columns">
+        <div class="columns mt-6 ">
 
-            <div class="column">
-
-
-                <article class="message is-info">
-                    <div class="message-body is-size-5 has-text-justified	">
-
-
-                        <div class="block">
-                            <p>Je vous reçois directement au cabinet situé à Vincennes (94) mais aussi en visio, n’hésitez
-                                pas à me contacter pour plus d’informations.</p>
-
-                        </div>
-                        <div class="block">
-
-                            <p>Je suis disponible les lundi, mardi, jeudi et vendredi, de 9h à 19h.</p>
-
-                        </div>
-                        <div class="block">
-                            <p>Vous pouvez prendre rendez-vous via <a href="<?php echo HomePage::DOCTOLIB_LINK ?>"><img src="css/images/DoctolibLogo.png" /></a></p>
-
-                        </div>
-                    </div>
-                </article>
-
-
-            </div>
 
 
             <div class="column">

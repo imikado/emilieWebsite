@@ -1,7 +1,7 @@
 <section class="hero is-success pt-6 pb-6" style="background-image:url('css/images/bandeau_bio.jpg?t=2024-04-10_1628');background-repeat:no-repeat" ;>
-    <div class="hero-body">
-        <p class="title">Primary hero</p>
-        <p class="subtitle">Primary subtitle</p>
+    <div class="hero-body has-text-centered  ">
+        <p class="title has-text-primary">Emilie Pereira</p>
+        <p class="subtitle has-text-primary">Psychologue du travail sur Vincennes (94)</p>
     </div>
 </section>
 
@@ -21,7 +21,7 @@
                 <div class="block" style="float:left;margin-right:30px">
                     <div class="card">
                         <div class="card-image">
-                            <figure class="image">
+                            <figure class="image" style="width:350px">
                                 <img src="css/images/small-home2.webp" alt="Placeholder image" />
                             </figure>
                         </div>

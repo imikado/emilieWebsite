@@ -97,7 +97,7 @@ use MyWebsite\Pages\ContactPage;
             <div class="column">
 
                 <article class="message is-info">
-                    <div class="message-body is-size-5 has-text-justified	">
+                    <div class="message-body is-size-6 has-text-justified	">
 
 
                         <div class="block">

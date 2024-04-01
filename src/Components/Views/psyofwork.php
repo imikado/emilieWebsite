@@ -27,7 +27,7 @@
             </div>
 
             <div class="column">
-                <div class="block is-size-4 has-text-justified	">
+                <div class="block is-size-5 has-text-justified	">
                     <p>Psychologue spécialisée dans le domaine du travail, j’interviens sur des problématiques en
                         lien avec la sphère professionnelle, que ce soit sur la souffrance au travail, ou encore pour
                         surmonter une situation complexe, franchir un cap, amorcer une transition.
@@ -36,7 +36,7 @@
                         de souffrance au travail.
                     </p>
                 </div>
-                <div class="block is-size-4 has-text-justified	">
+                <div class="block is-size-5 has-text-justified	">
 
                     <p>
                         Je vous accompagne dans la gestion du stress, l’épuisement professionnel, le burn-out, le
@@ -46,7 +46,15 @@
                         réflexion.</p>
                 </div>
 
-                <div class="block is-size-4 has-text-justified	">
+            </div>
+        </div>
+
+
+        <div class="columns">
+            <div class="column">
+
+
+                <div class="block is-size-5 has-text-justified	">
 
                     <p>
                         Pour autant, la psychologie, ce n’est pas que quand ça va mal : je propose aussi un espace
@@ -62,7 +70,7 @@
                     </p>
                 </div>
 
-                <div class="block is-size-4 has-text-justified	">
+                <div class="block is-size-5 has-text-justified	">
 
                     <p>
                         Et parce que vous êtes plus qu’un(e) salarié(e) / collaborateur(trice) / professionnel(le), vous
@@ -72,6 +80,20 @@
                         Et parce que chaque personne est unique, mon accompagnement est personnalisé, sur
                         mesure, et adapté à vos besoins spécifiques.
                     </p>
+                </div>
+
+            </div>
+
+            <div class="column">
+                <div class="block">
+                    <div class="card">
+                        <div class="card-image">
+                            <figure class="image">
+                                <img src="css/images/psychotravail_image2.jpg" alt="Placeholder image" />
+                            </figure>
+                        </div>
+
+                    </div>
                 </div>
 
             </div>
