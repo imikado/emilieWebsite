@@ -1,4 +1,4 @@
-<section class="hero is-success" style="background-image:url('css/images/bandeau_bio.jpg');background-repeat:no-repeat" ;>
+<section class="hero is-success pt-6 pb-6" style="background-image:url('css/images/bandeau_bio.jpg');background-repeat:no-repeat" ;>
     <div class="hero-body">
         <p class="title">Primary hero</p>
         <p class="subtitle">Primary subtitle</p>
