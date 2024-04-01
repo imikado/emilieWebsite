@@ -1,7 +1,7 @@
 <?php
 
 use MyWebsite\Pages\ContactPage;
-?><section class="hero is-success pt-6 pb-6" style="background-image:url('css/images/bandeau_bilandecompetences.jpg');background-repeat:no-repeat" ;>
+?><section class="hero is-success pt-6 pb-6" style="background-image:url('css/images/bandeau_bilandecompetences.jpg?t=2024-04-10_1628');background-repeat:no-repeat" ;>
     <div class="hero-body">
         <p class="title">"Accompagner quelqu’un ne consiste pas à le porter sur ses épaules mais à lui apprendre à se servir de ses ailes"</p>
         <p class="subtitle">Anne-Marie JOBIN</p>
