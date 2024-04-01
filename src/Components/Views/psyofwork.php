@@ -17,7 +17,7 @@
                     <div class="card">
                         <div class="card-image">
                             <figure class="image">
-                                <img src="css/images/workPsychology.jpg" alt="Placeholder image" />
+                                <img src="css/images/sided-view-young-girl-talking-therapist.jpg" alt="Placeholder image" />
                             </figure>
                         </div>
 
