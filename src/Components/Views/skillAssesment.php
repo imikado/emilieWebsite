@@ -15,11 +15,24 @@ use MyWebsite\Pages\ContactPage;
         <div class="columns">
 
 
-
-
-
-
             <div class="column">
+
+
+
+                <div class="card" style="width:350px;float:left;margin-right:30px">
+                    <div class="card-image">
+                        <figure class="image">
+                            <img src="css/images/bilandecompetences_image1.jpg" alt="Placeholder image" />
+                        </figure>
+                    </div>
+
+                </div>
+
+
+
+
+
+
 
                 <div class="block is-size-5 has-text-justified	">
                     <p>
@@ -75,6 +88,14 @@ use MyWebsite\Pages\ContactPage;
                 </div>
 
 
+            </div>
+        </div>
+
+        <div class="columns">
+
+
+            <div class="column">
+
                 <article class="message is-info">
                     <div class="message-body is-size-5 has-text-justified	">
 
@@ -121,11 +142,31 @@ use MyWebsite\Pages\ContactPage;
                             </ul>
 
                             </p>
-                            <p>
-                                Article R6313-4 du code du travail.</p>
+                            <p class="has-text-right">
+                                <i>Article R6313-4 du code du travail.</i>
+                            </p>
                         </div>
                     </div>
                 </article>
+
+            </div>
+            <div class="column">
+
+                <div class="block">
+                    <div class="card">
+                        <div class="card-image">
+                            <figure class="image">
+                                <img src="css/images/bilandecompetences_image2.jpg" alt="Placeholder image" />
+                            </figure>
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+
+
 
                 <div class="block is-size-5 has-text-justified	">
                     <p>
@@ -142,8 +183,14 @@ use MyWebsite\Pages\ContactPage;
                 </div>
 
 
+
             </div>
         </div>
+
+
+
+    </div>
+    </div>
 
 
 
