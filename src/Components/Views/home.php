@@ -118,7 +118,7 @@ use MyWebsite\Pages\SkillAssesmentPage;
 
                         </div>
                         <div class="block">
-                            <p>Vous pouvez prendre rendez-vous via <a href="<?php echo HomePage::DOCTOLIB_LINK ?>"><img src="/css/images/DoctolibLogo.png" /></a></p>
+                            <p>Vous pouvez prendre rendez-vous via <a href="<?php echo HomePage::DOCTOLIB_LINK ?>"><img src="css/images/DoctolibLogo.png" /></a></p>
 
                         </div>
                     </div>
