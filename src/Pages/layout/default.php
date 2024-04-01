@@ -46,10 +46,8 @@
     }
 
     body {
-      background: url('css/images/background.jpg?date=2024-03-26_2251');
-      background-repeat: no-repeat;
-      background-attachment: fixed;
-      background-position: center;
+      background: url('css/images/background2.jpg?date=2024-04-01_1431');
+      background-repeat: repeat;
     }
   </style>
 

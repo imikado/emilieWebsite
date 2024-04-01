@@ -1,6 +1,8 @@
-<section class="hero has-background-success mt-6">
-
-    &nbsp;
+<section class="hero is-success" style="background-image:url('css/images/bandeau_pyshocologieDuTravail.jpg');background-repeat:no-repeat" ;>
+    <div class="hero-body">
+        <p class="title">"Si le travail peut faire souffrir, c’est avant tout parce qu’il est porteur de nombreuses promesses"</p>
+        <p class="subtitle">Marie Pezé</p>
+    </div>
 </section>
 
 

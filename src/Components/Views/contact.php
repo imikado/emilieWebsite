@@ -1,4 +1,4 @@
-<section class="hero has-background-success mt-6">
+<section class="hero has-background-success">
 
     &nbsp;
 </section>

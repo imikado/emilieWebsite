@@ -6,10 +6,11 @@ use MyWebsite\Pages\SkillAssesmentPage;
 
 ?>
 
-<section class="hero has-background-success mt-6">
+<section class="hero has-background-success">
 
     &nbsp;
 </section>
+
 
 <section class="section">
     <div class="container">
@@ -29,57 +30,13 @@ use MyWebsite\Pages\SkillAssesmentPage;
                 </div>
                 <div class="block is-size-5 has-text-justified	">
 
-                    <p>Mes 2 domaines d’intervention sont :</p>
-                    <ul>
-                        <li><a href="<?php echo PsyOfWorkPage::FILENAME ?>">La psychologie du travail</a></li>
-                        <li><a href="<?php echo SkillAssesmentPage::FILENAME ?>">Le bilan de compétences</a></li>
-                    </ul>
-                </div>
-                <div class="block is-size-5 has-text-justified	">
-
-                    <p>Je vous reçois directement au cabinet situé à Vincennes (94) mais aussi en visio, n’hésitez
-                        pas à me contacter pour plus d’informations.</p>
-
-
 
                 </div>
-
-
-
 
 
             </div>
             <div class="column">
 
-                <div class="block">
-                    <div class="card">
-                        <div class="card-image">
-                            <figure class="image">
-                                <img src="css/images/small-home3.webp" alt="Placeholder image" />
-                            </figure>
-                        </div>
-
-                    </div>
-                </div>
-
-            </div>
-        </div>
-
-        <div class="columns">
-            <div class="column">
-
-                <div class="block content has-text-centered	 is-size-5">
-
-                    <p>Je suis disponible les lundi, mardi, jeudi et vendredi, de 9h à 19h.</p>
-
-                    <p>Vous pouvez prendre rendez-vous via <a href="<?php echo HomePage::DOCTOLIB_LINK ?>"><img src="/css/images/DoctolibLogo.png" /></a></p>
-                </div>
-            </div>
-        </div>
-
-        <div class="columns">
-
-            <div class="column">
                 <div class="block">
                     <div class="card">
                         <div class="card-image">
@@ -90,19 +47,90 @@ use MyWebsite\Pages\SkillAssesmentPage;
 
                     </div>
                 </div>
+
+            </div>
+        </div>
+
+        <div class="block">
+            <h1 class="title has-text-primary has-text-centered">Mes domaines d'intervention</h1>
+        </div>
+
+        <div class="columns">
+
+            <div class="column">
+
+
+
+                <div class="block">
+                    <figure class="image is-4by3">
+                        <img src="css/images/home_pyschologieDuTravail.jpg" alt="Placeholder image" />
+                    </figure>
+                </div>
+
+
+                <div class="block buttons is-centered">
+                    <a class="button is-primary has-text-info" href="<?php echo PsyOfWorkPage::FILENAME ?>">
+                        Psychologie du travail</a>
+                </div>
+
+            </div>
+
+
+
+            <div class="column">
+
+
+                <div class="block">
+
+                    <figure class="image is-4by3">
+                        <img src="css/images/home_bilanCompetences.jpg" alt="Placeholder image" />
+                    </figure>
+                </div>
+
+                <div class="block buttons is-centered">
+                    <a class="button is-primary  has-text-info" href="<?php echo SkillAssesmentPage::FILENAME ?>">
+                        Bilan de compétence
+                    </a>
+                </div>
+            </div>
+
+
+        </div>
+
+
+        <div class="columns">
+
+            <div class="column">
+
+
+                <article class="message is-info">
+                    <div class="message-body is-size-5 has-text-justified	">
+
+
+                        <div class="block">
+                            <p>Je vous reçois directement au cabinet situé à Vincennes (94) mais aussi en visio, n’hésitez
+                                pas à me contacter pour plus d’informations.</p>
+
+                        </div>
+                        <div class="block">
+
+                            <p>Je suis disponible les lundi, mardi, jeudi et vendredi, de 9h à 19h.</p>
+
+                        </div>
+                        <div class="block">
+                            <p>Vous pouvez prendre rendez-vous via <a href="<?php echo HomePage::DOCTOLIB_LINK ?>"><img src="/css/images/DoctolibLogo.png" /></a></p>
+
+                        </div>
+                    </div>
+                </article>
+
+
             </div>
 
 
             <div class="column">
 
-                <article class="message is-info">
-                    <div class="message-body is-size-5 has-text-justified	">
 
-                        <strong>Au 1er rendez-vous</strong>, nous échangeons pour faire connaissance et vous permettre d’exprimer vos problématiques, vos besoins et attentes. Ensemble, nous définissons une méthodologie personnalisée et adaptée à vos objectifs, que ce soit à travers une consultation ponctuelle, des séances organisées sur plusieurs semaines, ou la réalisation d’un bilan de compétences.
-
-
-                    </div>
-                </article>
 
                 <article class="message is-success">
                     <div class="message-header is-size-5 has-text-info-dark">
@@ -123,4 +151,7 @@ use MyWebsite\Pages\SkillAssesmentPage;
 
 
     </div>
+
+
+
 </section>
