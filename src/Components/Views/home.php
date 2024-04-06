@@ -7,9 +7,12 @@ use MyWebsite\Pages\SkillAssesmentPage;
 
 ?>
 
-<section class="hero has-background-success">
+<section class="hero is-success pt-6 pb-6" style="background-image:url('css/images/bandeau_home.jpg?t=2024-04-06_1728');background-repeat:no-repeat" ;>
+    <div class="hero-body has-text-centered  ">
+        <p class="title has-text-primary">Psychologue du travail</p>
+        <p class="subtitle has-text-centered ">Souffrance au travail & Bilan de compétences</p>
 
-    &nbsp;
+    </div>
 </section>
 
 
@@ -19,20 +22,20 @@ use MyWebsite\Pages\SkillAssesmentPage;
 
         <div class="columns">
 
-            <div class="column content has-text-centered">
-                <h1 class="title has-text-primary">Psychologue du travail à Vincennes</h1>
+            <div class="column  has-text-centered">
+                <h1 class="title has-text-primary">Bienvenue !</h1>
 
                 <div class="block is-size-5  	">
                     <p>Je suis psychologue du travail et consultante en bilan de compétences à Vincennes (94).</p>
                 </div>
                 <div class="block is-size-5 	">
 
-                    <p>J’accompagne des étudiants, actifs, salariés, demandeurs d’emploi.</p>
+                    <p>J’accompagne des étudiants, actifs, salarié et demandeurs d'emploi.</p>
                 </div>
                 <div class="block is-size-5 	">
 
                     <p>Je vous reçois directement au cabinet situé à Vincennes (94) mais aussi en visio, n’hésitez
-                        pas à me <a class="is-primary" href="<?php echo ContactPage::FILENAME ?>">contacter</a> pour plus d’informations.</p>
+                        pas à me <a class="has-text-primary" href="<?php echo ContactPage::FILENAME ?>">contacter</a> pour plus d’informations.</p>
                 </div>
 
                 <div class="block is-size-5  	">
@@ -67,7 +70,7 @@ use MyWebsite\Pages\SkillAssesmentPage;
                     </div>
 
                     <footer class="card-footer">
-                        <a title="text du Psychologie du travail" class="card-footer-item has-text-primary" href="<?php echo PsyOfWorkPage::FILENAME ?>">
+                        <a title="text du Psychologie du travail" class="card-footer-item has-text-primary has-text-weight-bold is-size-4" href="<?php echo PsyOfWorkPage::FILENAME ?>">
                             Psychologie du travail</a>
 
                     </footer>
@@ -89,7 +92,7 @@ use MyWebsite\Pages\SkillAssesmentPage;
                     </div>
 
                     <footer class="card-footer">
-                        <a title="text du Psychologie du travail" class="card-footer-item has-text-primary" href="<?php echo SkillAssesmentPage::FILENAME ?>">
+                        <a title="text du Psychologie du travail" class="card-footer-item has-text-primary has-text-weight-bold is-size-4" href="<?php echo SkillAssesmentPage::FILENAME ?>">
                             Bilan de compétence
                         </a>
 
@@ -112,7 +115,7 @@ use MyWebsite\Pages\SkillAssesmentPage;
 
 
                 <article class="message is-success">
-                    <div class="message-header is-size-5 has-text-info-dark">
+                    <div class="message-header is-size-5 has-text-white">
                         <p>Prix des séances :</p>
                     </div>
                     <div class="message-body content is-size-5">

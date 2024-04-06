@@ -1,7 +1,7 @@
-<section class="hero is-success pt-6 pb-6" style="background-image:url('css/images/bandeau_bio.jpg?t=2024-04-10_1628');background-repeat:no-repeat" ;>
+<section class="hero is-success pt-6 pb-6" style="background-image:url('css/images/bandeau_bio.jpg?t=2024-04-06_1730');background-repeat:no-repeat" ;>
     <div class="hero-body has-text-centered  ">
-        <p class="title has-text-primary">Emilie Pereira</p>
-        <p class="subtitle has-text-primary">Psychologue du travail sur Vincennes (94)</p>
+        <p class="title has-text-primary">Bien dans sa vie ! Bien au travail !</p>
+
     </div>
 </section>
 
@@ -30,7 +30,6 @@
                 </div>
 
 
-                <h1 class="title has-text-primary">Bien dans sa vie ! Bien au travail !</h1>
 
                 <div class="block is-size-5 has-text-justified	">
 
@@ -56,6 +55,19 @@
                         (reconversion, (ré)orientation, évolution, perte de sens au travail...).</p>
                 </div>
                 <div class="block is-size-5 has-text-justified	">
+
+
+
+                    <div class="block" style="float:right;margin-left:30px">
+                        <div class="card">
+                            <div class="card-image">
+                                <figure class="image" style="width:350px">
+                                    <img src="css/images/bio_ethics.jpg" alt="Placeholder image" />
+                                </figure>
+                            </div>
+
+                        </div>
+                    </div>
 
                     <p>Au sein de mon cabinet, je vous accueille en toute bienveillance, dans le respect du code de
                         déontologie des psychologues et du secret professionnel. En plus des valeurs de

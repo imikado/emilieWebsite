@@ -1,10 +1,14 @@
 <?php
 
 use MyWebsite\Pages\ContactPage;
-?><section class="hero is-success pt-6 pb-6" style="background-image:url('css/images/bandeau_bilandecompetences.jpg?t=2024-04-10_1628');background-repeat:no-repeat" ;>
+?><style>
+    body {
+        background-color: #eee9e4;
+    }
+</style>
+<section class="hero is-success pt-6 pb-6" style="background-image:url('css/images/bandeau_bilandecompetences.jpg?t=2024-04-06_1716');background-repeat:no-repeat" ;>
     <div class="hero-body">
-        <p class="title">"Accompagner quelqu’un ne consiste pas à le porter sur ses épaules mais à lui apprendre à se servir de ses ailes"</p>
-        <p class="subtitle">Anne-Marie JOBIN</p>
+        <p class="title has-text-centered">Il s'agit de faire un travail sur vous, pour vous et de redéfinir votre travail</p>
     </div>
 </section>
 
@@ -12,47 +16,57 @@ use MyWebsite\Pages\ContactPage;
     <div class="container">
 
 
+        <div class="card">
+
+            <div class="card-content">
+                <div class="media">
+                    <div class="media-left">
+                        <figure class="image ">
+                            <img src="css/images/bilandecompetences_image1.jpg" style="width:250px" alt="Placeholder image" />
+                        </figure>
+                    </div>
+                    <div class="media-content">
+
+                        <div class="block is-size-5 has-text-justified	">
+                            <p>
+
+                                Le bilan de compétences, c’est la possibilité pour vous de penser votre travail et non de
+                                penser à votre travail.
+                            </p>
+                        </div>
+
+                        <div class="block is-size-5 has-text-justified	">
+                            <p>
+                                Le bilan de compétences est avant tout une démarche individuelle, personnelle et
+                                personnalisée. Il a pour objectif « de permettre à des travailleurs d’analyser leurs
+                                compétences professionnelles et personnelles ainsi que leurs aptitudes et motivations afin
+                                de définir un projet professionnel et le cas échéant, un projet de formation. Ce bilan ne
+                                peut être réalisé qu’avec le consentement du travailleur. » - Article L6313-10 du Code du
+                                travail.
+
+                            </p>
+                        </div>
+
+
+
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+
+
+
+
+
+
         <div class="columns">
+
 
 
             <div class="column">
 
-
-
-                <div class="card" style="width:350px;float:left;margin-right:30px">
-                    <div class="card-image">
-                        <figure class="image">
-                            <img src="css/images/bilandecompetences_image1.jpg" alt="Placeholder image" />
-                        </figure>
-                    </div>
-
-                </div>
-
-
-
-
-
-
-
-                <div class="block is-size-5 has-text-justified	">
-                    <p>
-                        Il s’agit de faire un travail sur vous, pour vous et de redéfinir votre travail.
-                        Le bilan de compétences, c’est la possibilité pour vous de penser votre travail et non de
-                        penser à votre travail.
-                    </p>
-                </div>
-
-                <div class="block is-size-5 has-text-justified	">
-                    <p>
-                        Le bilan de compétences est avant tout une démarche individuelle, personnelle et
-                        personnalisée. Il a pour objectif « de permettre à des travailleurs d’analyser leurs
-                        compétences professionnelles et personnelles ainsi que leurs aptitudes et motivations afin
-                        de définir un projet professionnel et le cas échéant, un projet de formation. Ce bilan ne
-                        peut être réalisé qu’avec le consentement du travailleur. » - Article L6313-10 du Code du
-                        travail.
-
-                    </p>
-                </div>
 
                 <div class="block is-size-5 has-text-justified	">
                     <p>
@@ -74,30 +88,76 @@ use MyWebsite\Pages\ContactPage;
                     </p>
                 </div>
 
-                <div class="block is-size-5 has-text-justified	">
-                    <p>
-                        Pour mener à bien votre bilan de compétences, j’utilise une méthodologie précise, des
-                        techniques d’entretien, l’écoute active, le questionnement, des exercices, des tests,
-                        questionnaires portant sur votre personnalité, vos intérêts professionnels, vos valeurs, vos
-                        moteurs, votre parcours, vos savoirs, savoir-faire, savoir-être, des référentiels métiers, des
-                        enquêtes métiers, des études de marché…
-                        En fin d’accompagnement, je vous remets un document de synthèse qui est confidentiel et
-                        dont vous êtes le seul destinataire.
 
-                    </p>
+
+            </div>
+        </div>
+
+
+
+        <div class="card">
+
+            <div class="card-content">
+                <div class="media">
+
+                    <div class="media-content">
+
+                        <div class="block is-size-5 has-text-justified	">
+                            <p>
+                                Pour mener à bien votre bilan de compétences, j’utilise une méthodologie précise, des
+                                techniques d’entretien, l’écoute active, le questionnement, des exercices, des tests,
+                                questionnaires portant sur votre personnalité, vos intérêts professionnels, vos valeurs, vos
+                                moteurs, votre parcours, vos savoirs, savoir-faire, savoir-être, des référentiels métiers, des
+                                enquêtes métiers, des études de marché…
+                                En fin d’accompagnement, je vous remets un document de synthèse qui est confidentiel et
+                                dont vous êtes le seul destinataire.
+
+                            </p>
+                        </div>
+
+
+
+                    </div>
+                    <div class="media-right">
+                        <figure class="image ">
+                            <img src="css/images/bilandecompetences_image2.jpg" style="width:250px" alt="Placeholder image" />
+                        </figure>
+                    </div>
                 </div>
 
 
             </div>
         </div>
 
+
+        <div class="block">
+
+
+            <div class="block is-size-5 has-text-justified	">
+                <p>
+                    Le bilan de compétences vous permet de vous recentrer et de vous aligner avec un (des)
+                    projet(s) professionnel(s) épanouissant qui vous ressemble et qui fasse sens pour vous.
+
+                </p>
+            </div>
+
+            <div class="block is-size-5 has-text-justified	">
+                <p>
+                    On peut en échanger lors d’un rendez-vous gratuit, <a class="button" href="<?php echo ContactPage::FILENAME ?>">Contactez-moi.</a>
+                </p>
+            </div>
+
+        </div>
+
+
+
         <div class="columns">
 
 
             <div class="column">
 
-                <article class="message is-info">
-                    <div class="message-body is-size-6 has-text-justified	">
+                <article class="message is-text">
+                    <div class="message-body is-size-6 has-text-justified  has-background-white	">
 
 
                         <div class="block">
@@ -121,6 +181,21 @@ use MyWebsite\Pages\ContactPage;
                                     marché du travail.</li>
                             </ul>
                             </p>
+
+                        </div>
+                    </div>
+                </article>
+
+            </div>
+            <div class="column">
+
+
+
+                <article class="message is-text">
+                    <div class="message-body is-size-6 has-text-justified	 has-background-white">
+
+
+                        <div class="block">
                             <p>
                                 Le bilan de compétences est une démarche structurée. Il comprend :
                             <ul>
@@ -149,43 +224,19 @@ use MyWebsite\Pages\ContactPage;
                     </div>
                 </article>
 
-            </div>
-            <div class="column">
-
-                <div class="block">
-                    <div class="card">
-                        <div class="card-image">
-                            <figure class="image">
-                                <img src="css/images/bilandecompetences_image2.jpg" alt="Placeholder image" />
-                            </figure>
-                        </div>
-
-                    </div>
-
-                </div>
 
 
 
 
-
-                <div class="block is-size-5 has-text-justified	">
-                    <p>
-                        Le bilan de compétences vous permet de vous recentrer et de vous aligner avec un (des)
-                        projet(s) professionnel(s) épanouissant qui vous ressemble et qui fasse sens pour vous.
-
-                    </p>
-                </div>
-
-                <div class="block is-size-5 has-text-justified	">
-                    <p>
-                        On peut en échanger lors d’un rendez-vous gratuit, <a class="button" href="<?php echo ContactPage::FILENAME ?>">Contactez-moi.</a>
-                    </p>
-                </div>
 
 
 
             </div>
         </div>
+
+
+
+
 
 
 

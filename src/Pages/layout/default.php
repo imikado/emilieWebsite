@@ -8,6 +8,10 @@
 
 
   <link rel="stylesheet" href="css/bulma.min.css" />
+  <link href="https://fonts.googleapis.com/css?family=Comfortaa" rel="stylesheet">
+
+  <link href="https://fonts.googleapis.com/css2?family=Licorice&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Licorice&family=Lora:ital,wght@0,400..700;1,400..700&display=swap" rel="stylesheet">
 
   <style>
     :root {
@@ -21,14 +25,16 @@
       --custom-color5: hsl(46, 72%, 92%);
 
       --bulma-primary: hsla(var(--bulma-primary-h), var(--bulma-primary-s), var(--bulma-primary-l), 1);
-      --bulma-primary-h: 139;
-      --bulma-primary-s: 26%;
-      --bulma-primary-l: 38%;
+      /* hsl(23.23, 25.83%, 52.94%)  */
+      --bulma-primary-h: 23.23;
+      --bulma-primary-s: 25.83%;
+      --bulma-primary-l: 52.94%;
 
+      /* hsl(34.29, 28.57%, 80.78%) */
       --bulma-success: hsla(var(--bulma-success-h), var(--bulma-success-s), var(--bulma-success-l), 1);
-      --bulma-success-h: 134;
-      --bulma-success-s: 19%;
-      --bulma-success-l: 79%;
+      --bulma-success-h: 34.29;
+      --bulma-success-s: 28.57%;
+      --bulma-success-l: 80.78%;
 
       --bulma-info: hsla(var(--bulma-info-h), var(--bulma-info-s), var(--bulma-info-l), 1);
       --bulma-info-h: 46;
@@ -43,10 +49,23 @@
 
 
       --bulma-text-strong: var(--custom-color2);
+
+      --bulma-body-family: "Lora";
+
+    }
+
+    .title {
+      font-family: "Licorice";
+      font-size: 4em;
+    }
+
+    .subtitle {
+      font-family: "Licorice";
+
     }
 
     body {
-      background: url('css/images/background2.jpg?date=2024-04-01_1431');
+      background: white;
       background-repeat: repeat;
     }
   </style>
@@ -59,6 +78,18 @@
   <?php foreach ($this->paramList['contentList'] as $contentLoop) :
     echo $contentLoop->render();
   endforeach; ?>
+
+  <footer class="footer">
+    <div class="content has-text-centered">
+      <p>
+        <strong>Bulma</strong> by <a href="https://jgthms.com">Jeremy Thomas</a>.
+        The source code is licensed
+        <a href="http://opensource.org/licenses/mit-license.php">MIT</a>. The
+        website content is licensed
+        <a href="http://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY NC SA 4.0</a>.
+      </p>
+    </div>
+  </footer>
 
   <script>
     document.addEventListener("DOMContentLoaded", () => {

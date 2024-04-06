@@ -1,7 +1,12 @@
-<section class="hero is-success pt-6 pb-6" style="background-image:url('css/images/bandeau_pyshocologieDuTravail.jpg?t=2024-04-10_1628');background-repeat:no-repeat" ;>
+<style>
+    body {
+        background-color: #eee9e4;
+    }
+</style>
+<section class="hero is-success pt-6 pb-6" style="background-image:url('css/images/bandeau_pyshocologieDuTravail.jpg?t=2024-04-06_11721');background-repeat:no-repeat" ;>
     <div class="hero-body">
-        <p class="title">"Si le travail peut faire souffrir, c’est avant tout parce qu’il est porteur de nombreuses promesses"</p>
-        <p class="subtitle">Marie Pezé</p>
+        <p class="title has-text-centered ">"Si le travail peut faire souffrir, c’est avant tout parce qu’il est porteur de nombreuses promesses"</p>
+        <p class="subtitle has-text-centered ">Marie Pezé</p>
     </div>
 </section>
 
@@ -27,7 +32,7 @@
             </div>
 
             <div class="column">
-                <div class="block is-size-5 has-text-justified	">
+                <div class="block is-size-6 has-text-justified	">
                     <p>Psychologue spécialisée dans le domaine du travail, j’interviens sur des problématiques en
                         lien avec la sphère professionnelle, que ce soit sur la souffrance au travail, ou encore pour
                         surmonter une situation complexe, franchir un cap, amorcer une transition.
@@ -89,7 +94,7 @@
                     <div class="card">
                         <div class="card-image">
                             <figure class="image">
-                                <img src="css/images/psychotravail_image2.jpg" alt="Placeholder image" />
+                                <img src="css/images/psychotravail_image2.jpg?t=2024-04-06_1536" alt="Placeholder image" />
                             </figure>
                         </div>
 
