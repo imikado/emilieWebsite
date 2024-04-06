@@ -8,6 +8,10 @@
 
 
   <link rel="stylesheet" href="css/bulma.min.css" />
+  <link href="https://fonts.googleapis.com/css?family=Comfortaa" rel="stylesheet">
+
+  <link href="https://fonts.googleapis.com/css2?family=Licorice&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Licorice&family=Lora:ital,wght@0,400..700;1,400..700&display=swap" rel="stylesheet">
 
   <style>
     :root {
@@ -21,14 +25,16 @@
       --custom-color5: hsl(46, 72%, 92%);
 
       --bulma-primary: hsla(var(--bulma-primary-h), var(--bulma-primary-s), var(--bulma-primary-l), 1);
-      --bulma-primary-h: 139;
-      --bulma-primary-s: 26%;
-      --bulma-primary-l: 38%;
+      /* hsl(23.23, 25.83%, 52.94%)  */
+      --bulma-primary-h: 23.23;
+      --bulma-primary-s: 25.83%;
+      --bulma-primary-l: 52.94%;
 
+      /* hsl(34.29, 28.57%, 80.78%) */
       --bulma-success: hsla(var(--bulma-success-h), var(--bulma-success-s), var(--bulma-success-l), 1);
-      --bulma-success-h: 134;
-      --bulma-success-s: 19%;
-      --bulma-success-l: 79%;
+      --bulma-success-h: 34.29;
+      --bulma-success-s: 28.57%;
+      --bulma-success-l: 80.78%;
 
       --bulma-info: hsla(var(--bulma-info-h), var(--bulma-info-s), var(--bulma-info-l), 1);
       --bulma-info-h: 46;
@@ -43,10 +49,23 @@
 
 
       --bulma-text-strong: var(--custom-color2);
+
+      --bulma-body-family: "Lora";
+
+    }
+
+    .title {
+      font-family: "Licorice";
+      font-size: 4em;
+    }
+
+    .subtitle {
+      font-family: "Licorice";
+
     }
 
     body {
-      background: url('css/images/background2.jpg?date=2024-04-01_1431');
+      background: white;
       background-repeat: repeat;
     }
   </style>
@@ -74,7 +93,7 @@
 
                     <a class="navbar-item " href="index.html">Accueil</a>
                     <a class="navbar-item " href="bio.html">Présentation</a>
-                    <a class="navbar-item is-active has-background-success has-text-primary" href="phychologie_du_travail.html">La psychologie du travail</a>
+                    <a class="navbar-item is-active has-background-success has-text-primary" href="phychologie_du_travail.html">Psychologie du travail</a>
                     <a class="navbar-item " href="bilan_de_competence.html">Bilan de compétences</a>
                     <a class="navbar-item " href="contact.html">Contact</a>
         
@@ -82,10 +101,15 @@
 
 
 </nav>
-  <section class="hero is-success pt-6 pb-6" style="background-image:url('css/images/bandeau_pyshocologieDuTravail.jpg?t=2024-04-10_1628');background-repeat:no-repeat" ;>
+  <style>
+    body {
+        background-color: #eee9e4;
+    }
+</style>
+<section class="hero is-success pt-6 pb-6" style="background-image:url('css/images/bandeau_pyshocologieDuTravail.jpg?t=2024-04-06_11721');background-repeat:no-repeat" ;>
     <div class="hero-body">
-        <p class="title">"Si le travail peut faire souffrir, c’est avant tout parce qu’il est porteur de nombreuses promesses"</p>
-        <p class="subtitle">Marie Pezé</p>
+        <p class="title has-text-centered ">"Si le travail peut faire souffrir, c’est avant tout parce qu’il est porteur de nombreuses promesses"</p>
+        <p class="subtitle has-text-centered ">Marie Pezé</p>
     </div>
 </section>
 
@@ -111,7 +135,7 @@
             </div>
 
             <div class="column">
-                <div class="block is-size-5 has-text-justified	">
+                <div class="block is-size-6 has-text-justified	">
                     <p>Psychologue spécialisée dans le domaine du travail, j’interviens sur des problématiques en
                         lien avec la sphère professionnelle, que ce soit sur la souffrance au travail, ou encore pour
                         surmonter une situation complexe, franchir un cap, amorcer une transition.
@@ -173,7 +197,7 @@
                     <div class="card">
                         <div class="card-image">
                             <figure class="image">
-                                <img src="css/images/psychotravail_image2.jpg" alt="Placeholder image" />
+                                <img src="css/images/psychotravail_image2.jpg?t=2024-04-06_1536" alt="Placeholder image" />
                             </figure>
                         </div>
 
@@ -186,6 +210,18 @@
     </div>
 
 </section>
+  <footer class="footer">
+    <div class="content has-text-centered">
+      <p>
+        <strong>Bulma</strong> by <a href="https://jgthms.com">Jeremy Thomas</a>.
+        The source code is licensed
+        <a href="http://opensource.org/licenses/mit-license.php">MIT</a>. The
+        website content is licensed
+        <a href="http://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY NC SA 4.0</a>.
+      </p>
+    </div>
+  </footer>
+
   <script>
     document.addEventListener("DOMContentLoaded", () => {
       // Get all "navbar-burger" elements

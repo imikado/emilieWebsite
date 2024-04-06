@@ -8,6 +8,10 @@
 
 
   <link rel="stylesheet" href="css/bulma.min.css" />
+  <link href="https://fonts.googleapis.com/css?family=Comfortaa" rel="stylesheet">
+
+  <link href="https://fonts.googleapis.com/css2?family=Licorice&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Licorice&family=Lora:ital,wght@0,400..700;1,400..700&display=swap" rel="stylesheet">
 
   <style>
     :root {
@@ -21,14 +25,16 @@
       --custom-color5: hsl(46, 72%, 92%);
 
       --bulma-primary: hsla(var(--bulma-primary-h), var(--bulma-primary-s), var(--bulma-primary-l), 1);
-      --bulma-primary-h: 139;
-      --bulma-primary-s: 26%;
-      --bulma-primary-l: 38%;
+      /* hsl(23.23, 25.83%, 52.94%)  */
+      --bulma-primary-h: 23.23;
+      --bulma-primary-s: 25.83%;
+      --bulma-primary-l: 52.94%;
 
+      /* hsl(34.29, 28.57%, 80.78%) */
       --bulma-success: hsla(var(--bulma-success-h), var(--bulma-success-s), var(--bulma-success-l), 1);
-      --bulma-success-h: 134;
-      --bulma-success-s: 19%;
-      --bulma-success-l: 79%;
+      --bulma-success-h: 34.29;
+      --bulma-success-s: 28.57%;
+      --bulma-success-l: 80.78%;
 
       --bulma-info: hsla(var(--bulma-info-h), var(--bulma-info-s), var(--bulma-info-l), 1);
       --bulma-info-h: 46;
@@ -43,10 +49,23 @@
 
 
       --bulma-text-strong: var(--custom-color2);
+
+      --bulma-body-family: "Lora";
+
+    }
+
+    .title {
+      font-family: "Licorice";
+      font-size: 4em;
+    }
+
+    .subtitle {
+      font-family: "Licorice";
+
     }
 
     body {
-      background: url('css/images/background2.jpg?date=2024-04-01_1431');
+      background: white;
       background-repeat: repeat;
     }
   </style>
@@ -74,7 +93,7 @@
 
                     <a class="navbar-item is-active has-background-success has-text-primary" href="index.html">Accueil</a>
                     <a class="navbar-item " href="bio.html">Présentation</a>
-                    <a class="navbar-item " href="phychologie_du_travail.html">La psychologie du travail</a>
+                    <a class="navbar-item " href="phychologie_du_travail.html">Psychologie du travail</a>
                     <a class="navbar-item " href="bilan_de_competence.html">Bilan de compétences</a>
                     <a class="navbar-item " href="contact.html">Contact</a>
         
@@ -83,9 +102,12 @@
 
 </nav>
   
-<section class="hero has-background-success">
+<section class="hero is-success pt-6 pb-6" style="background-image:url('css/images/bandeau_home.jpg?t=2024-04-06_1728');background-repeat:no-repeat" ;>
+    <div class="hero-body has-text-centered  ">
+        <p class="title has-text-primary">Psychologue du travail</p>
+        <p class="subtitle has-text-centered ">Souffrance au travail & Bilan de compétences</p>
 
-    &nbsp;
+    </div>
 </section>
 
 
@@ -95,20 +117,20 @@
 
         <div class="columns">
 
-            <div class="column content has-text-centered">
-                <h1 class="title has-text-primary">Psychologue du travail à Vincennes</h1>
+            <div class="column  has-text-centered">
+                <h1 class="title has-text-primary">Bienvenue !</h1>
 
                 <div class="block is-size-5  	">
                     <p>Je suis psychologue du travail et consultante en bilan de compétences à Vincennes (94).</p>
                 </div>
                 <div class="block is-size-5 	">
 
-                    <p>J’accompagne des étudiants, actifs, salariés, demandeurs d’emploi.</p>
+                    <p>J’accompagne des étudiants, actifs, salarié et demandeurs d'emploi.</p>
                 </div>
                 <div class="block is-size-5 	">
 
                     <p>Je vous reçois directement au cabinet situé à Vincennes (94) mais aussi en visio, n’hésitez
-                        pas à me <a class="is-primary" href="contact.html">contacter</a> pour plus d’informations.</p>
+                        pas à me <a class="has-text-primary" href="contact.html">contacter</a> pour plus d’informations.</p>
                 </div>
 
                 <div class="block is-size-5  	">
@@ -143,7 +165,7 @@
                     </div>
 
                     <footer class="card-footer">
-                        <a title="text du Psychologie du travail" class="card-footer-item has-text-primary" href="phychologie_du_travail.html">
+                        <a title="text du Psychologie du travail" class="card-footer-item has-text-primary has-text-weight-bold is-size-4" href="phychologie_du_travail.html">
                             Psychologie du travail</a>
 
                     </footer>
@@ -165,7 +187,7 @@
                     </div>
 
                     <footer class="card-footer">
-                        <a title="text du Psychologie du travail" class="card-footer-item has-text-primary" href="bilan_de_competence.html">
+                        <a title="text du Psychologie du travail" class="card-footer-item has-text-primary has-text-weight-bold is-size-4" href="bilan_de_competence.html">
                             Bilan de compétence
                         </a>
 
@@ -188,7 +210,7 @@
 
 
                 <article class="message is-success">
-                    <div class="message-header is-size-5 has-text-info-dark">
+                    <div class="message-header is-size-5 has-text-white">
                         <p>Prix des séances :</p>
                     </div>
                     <div class="message-body content is-size-5">
@@ -210,6 +232,18 @@
 
 
 </section>
+  <footer class="footer">
+    <div class="content has-text-centered">
+      <p>
+        <strong>Bulma</strong> by <a href="https://jgthms.com">Jeremy Thomas</a>.
+        The source code is licensed
+        <a href="http://opensource.org/licenses/mit-license.php">MIT</a>. The
+        website content is licensed
+        <a href="http://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY NC SA 4.0</a>.
+      </p>
+    </div>
+  </footer>
+
   <script>
     document.addEventListener("DOMContentLoaded", () => {
       // Get all "navbar-burger" elements

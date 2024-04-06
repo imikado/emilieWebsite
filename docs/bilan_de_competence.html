@@ -8,6 +8,10 @@
 
 
   <link rel="stylesheet" href="css/bulma.min.css" />
+  <link href="https://fonts.googleapis.com/css?family=Comfortaa" rel="stylesheet">
+
+  <link href="https://fonts.googleapis.com/css2?family=Licorice&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Licorice&family=Lora:ital,wght@0,400..700;1,400..700&display=swap" rel="stylesheet">
 
   <style>
     :root {
@@ -21,14 +25,16 @@
       --custom-color5: hsl(46, 72%, 92%);
 
       --bulma-primary: hsla(var(--bulma-primary-h), var(--bulma-primary-s), var(--bulma-primary-l), 1);
-      --bulma-primary-h: 139;
-      --bulma-primary-s: 26%;
-      --bulma-primary-l: 38%;
+      /* hsl(23.23, 25.83%, 52.94%)  */
+      --bulma-primary-h: 23.23;
+      --bulma-primary-s: 25.83%;
+      --bulma-primary-l: 52.94%;
 
+      /* hsl(34.29, 28.57%, 80.78%) */
       --bulma-success: hsla(var(--bulma-success-h), var(--bulma-success-s), var(--bulma-success-l), 1);
-      --bulma-success-h: 134;
-      --bulma-success-s: 19%;
-      --bulma-success-l: 79%;
+      --bulma-success-h: 34.29;
+      --bulma-success-s: 28.57%;
+      --bulma-success-l: 80.78%;
 
       --bulma-info: hsla(var(--bulma-info-h), var(--bulma-info-s), var(--bulma-info-l), 1);
       --bulma-info-h: 46;
@@ -43,10 +49,23 @@
 
 
       --bulma-text-strong: var(--custom-color2);
+
+      --bulma-body-family: "Lora";
+
+    }
+
+    .title {
+      font-family: "Licorice";
+      font-size: 4em;
+    }
+
+    .subtitle {
+      font-family: "Licorice";
+
     }
 
     body {
-      background: url('css/images/background2.jpg?date=2024-04-01_1431');
+      background: white;
       background-repeat: repeat;
     }
   </style>
@@ -74,7 +93,7 @@
 
                     <a class="navbar-item " href="index.html">Accueil</a>
                     <a class="navbar-item " href="bio.html">Présentation</a>
-                    <a class="navbar-item " href="phychologie_du_travail.html">La psychologie du travail</a>
+                    <a class="navbar-item " href="phychologie_du_travail.html">Psychologie du travail</a>
                     <a class="navbar-item is-active has-background-success has-text-primary" href="bilan_de_competence.html">Bilan de compétences</a>
                     <a class="navbar-item " href="contact.html">Contact</a>
         
@@ -82,10 +101,14 @@
 
 
 </nav>
-  <section class="hero is-success pt-6 pb-6" style="background-image:url('css/images/bandeau_bilandecompetences.jpg?t=2024-04-10_1628');background-repeat:no-repeat" ;>
+  <style>
+    body {
+        background-color: #eee9e4;
+    }
+</style>
+<section class="hero is-success pt-6 pb-6" style="background-image:url('css/images/bandeau_bilandecompetences.jpg?t=2024-04-06_1716');background-repeat:no-repeat" ;>
     <div class="hero-body">
-        <p class="title">"Accompagner quelqu’un ne consiste pas à le porter sur ses épaules mais à lui apprendre à se servir de ses ailes"</p>
-        <p class="subtitle">Anne-Marie JOBIN</p>
+        <p class="title has-text-centered">Il s'agit de faire un travail sur vous, pour vous et de redéfinir votre travail</p>
     </div>
 </section>
 
@@ -93,47 +116,57 @@
     <div class="container">
 
 
+        <div class="card">
+
+            <div class="card-content">
+                <div class="media">
+                    <div class="media-left">
+                        <figure class="image ">
+                            <img src="css/images/bilandecompetences_image1.jpg" style="width:250px" alt="Placeholder image" />
+                        </figure>
+                    </div>
+                    <div class="media-content">
+
+                        <div class="block is-size-5 has-text-justified	">
+                            <p>
+
+                                Le bilan de compétences, c’est la possibilité pour vous de penser votre travail et non de
+                                penser à votre travail.
+                            </p>
+                        </div>
+
+                        <div class="block is-size-5 has-text-justified	">
+                            <p>
+                                Le bilan de compétences est avant tout une démarche individuelle, personnelle et
+                                personnalisée. Il a pour objectif « de permettre à des travailleurs d’analyser leurs
+                                compétences professionnelles et personnelles ainsi que leurs aptitudes et motivations afin
+                                de définir un projet professionnel et le cas échéant, un projet de formation. Ce bilan ne
+                                peut être réalisé qu’avec le consentement du travailleur. » - Article L6313-10 du Code du
+                                travail.
+
+                            </p>
+                        </div>
+
+
+
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+
+
+
+
+
+
         <div class="columns">
+
 
 
             <div class="column">
 
-
-
-                <div class="card" style="width:350px;float:left;margin-right:30px">
-                    <div class="card-image">
-                        <figure class="image">
-                            <img src="css/images/bilandecompetences_image1.jpg" alt="Placeholder image" />
-                        </figure>
-                    </div>
-
-                </div>
-
-
-
-
-
-
-
-                <div class="block is-size-5 has-text-justified	">
-                    <p>
-                        Il s’agit de faire un travail sur vous, pour vous et de redéfinir votre travail.
-                        Le bilan de compétences, c’est la possibilité pour vous de penser votre travail et non de
-                        penser à votre travail.
-                    </p>
-                </div>
-
-                <div class="block is-size-5 has-text-justified	">
-                    <p>
-                        Le bilan de compétences est avant tout une démarche individuelle, personnelle et
-                        personnalisée. Il a pour objectif « de permettre à des travailleurs d’analyser leurs
-                        compétences professionnelles et personnelles ainsi que leurs aptitudes et motivations afin
-                        de définir un projet professionnel et le cas échéant, un projet de formation. Ce bilan ne
-                        peut être réalisé qu’avec le consentement du travailleur. » - Article L6313-10 du Code du
-                        travail.
-
-                    </p>
-                </div>
 
                 <div class="block is-size-5 has-text-justified	">
                     <p>
@@ -155,30 +188,76 @@
                     </p>
                 </div>
 
-                <div class="block is-size-5 has-text-justified	">
-                    <p>
-                        Pour mener à bien votre bilan de compétences, j’utilise une méthodologie précise, des
-                        techniques d’entretien, l’écoute active, le questionnement, des exercices, des tests,
-                        questionnaires portant sur votre personnalité, vos intérêts professionnels, vos valeurs, vos
-                        moteurs, votre parcours, vos savoirs, savoir-faire, savoir-être, des référentiels métiers, des
-                        enquêtes métiers, des études de marché…
-                        En fin d’accompagnement, je vous remets un document de synthèse qui est confidentiel et
-                        dont vous êtes le seul destinataire.
 
-                    </p>
+
+            </div>
+        </div>
+
+
+
+        <div class="card">
+
+            <div class="card-content">
+                <div class="media">
+
+                    <div class="media-content">
+
+                        <div class="block is-size-5 has-text-justified	">
+                            <p>
+                                Pour mener à bien votre bilan de compétences, j’utilise une méthodologie précise, des
+                                techniques d’entretien, l’écoute active, le questionnement, des exercices, des tests,
+                                questionnaires portant sur votre personnalité, vos intérêts professionnels, vos valeurs, vos
+                                moteurs, votre parcours, vos savoirs, savoir-faire, savoir-être, des référentiels métiers, des
+                                enquêtes métiers, des études de marché…
+                                En fin d’accompagnement, je vous remets un document de synthèse qui est confidentiel et
+                                dont vous êtes le seul destinataire.
+
+                            </p>
+                        </div>
+
+
+
+                    </div>
+                    <div class="media-right">
+                        <figure class="image ">
+                            <img src="css/images/bilandecompetences_image2.jpg" style="width:250px" alt="Placeholder image" />
+                        </figure>
+                    </div>
                 </div>
 
 
             </div>
         </div>
 
+
+        <div class="block">
+
+
+            <div class="block is-size-5 has-text-justified	">
+                <p>
+                    Le bilan de compétences vous permet de vous recentrer et de vous aligner avec un (des)
+                    projet(s) professionnel(s) épanouissant qui vous ressemble et qui fasse sens pour vous.
+
+                </p>
+            </div>
+
+            <div class="block is-size-5 has-text-justified	">
+                <p>
+                    On peut en échanger lors d’un rendez-vous gratuit, <a class="button" href="contact.html">Contactez-moi.</a>
+                </p>
+            </div>
+
+        </div>
+
+
+
         <div class="columns">
 
 
             <div class="column">
 
-                <article class="message is-info">
-                    <div class="message-body is-size-6 has-text-justified	">
+                <article class="message is-text">
+                    <div class="message-body is-size-6 has-text-justified  has-background-white	">
 
 
                         <div class="block">
@@ -202,6 +281,21 @@
                                     marché du travail.</li>
                             </ul>
                             </p>
+
+                        </div>
+                    </div>
+                </article>
+
+            </div>
+            <div class="column">
+
+
+
+                <article class="message is-text">
+                    <div class="message-body is-size-6 has-text-justified	 has-background-white">
+
+
+                        <div class="block">
                             <p>
                                 Le bilan de compétences est une démarche structurée. Il comprend :
                             <ul>
@@ -230,43 +324,19 @@
                     </div>
                 </article>
 
-            </div>
-            <div class="column">
-
-                <div class="block">
-                    <div class="card">
-                        <div class="card-image">
-                            <figure class="image">
-                                <img src="css/images/bilandecompetences_image2.jpg" alt="Placeholder image" />
-                            </figure>
-                        </div>
-
-                    </div>
-
-                </div>
 
 
 
 
-
-                <div class="block is-size-5 has-text-justified	">
-                    <p>
-                        Le bilan de compétences vous permet de vous recentrer et de vous aligner avec un (des)
-                        projet(s) professionnel(s) épanouissant qui vous ressemble et qui fasse sens pour vous.
-
-                    </p>
-                </div>
-
-                <div class="block is-size-5 has-text-justified	">
-                    <p>
-                        On peut en échanger lors d’un rendez-vous gratuit, <a class="button" href="contact.html">Contactez-moi.</a>
-                    </p>
-                </div>
 
 
 
             </div>
         </div>
+
+
+
+
 
 
 
@@ -279,6 +349,18 @@
 
     </div>
 </section>
+  <footer class="footer">
+    <div class="content has-text-centered">
+      <p>
+        <strong>Bulma</strong> by <a href="https://jgthms.com">Jeremy Thomas</a>.
+        The source code is licensed
+        <a href="http://opensource.org/licenses/mit-license.php">MIT</a>. The
+        website content is licensed
+        <a href="http://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY NC SA 4.0</a>.
+      </p>
+    </div>
+  </footer>
+
   <script>
     document.addEventListener("DOMContentLoaded", () => {
       // Get all "navbar-burger" elements
