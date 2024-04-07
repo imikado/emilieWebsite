@@ -103,7 +103,7 @@ use MyWebsite\Pages\HomePage; ?>
                 <p>&nbsp;</p>
 
                 <div class="block mt-5">
-                    <h2 class="subtitle has-text-primary">La 1<sup>ère</sup> scéance</h2>
+                    <h2 class="subtitle has-text-primary">La 1<sup>ère</sup> séance</h2>
                 </div>
 
 

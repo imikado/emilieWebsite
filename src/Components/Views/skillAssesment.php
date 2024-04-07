@@ -112,7 +112,7 @@ use MyWebsite\Pages\HomePage;
         </div>
 
         <div class="block mt-5">
-            <h2 class="subtitle has-text-primary">La 1<sup>ère</sup> scéance</h2>
+            <h2 class="subtitle has-text-primary">La 1<sup>ère</sup> séance</h2>
         </div>
 
 
@@ -122,7 +122,7 @@ use MyWebsite\Pages\HomePage;
             <p>Elle permet d'analyser votre situation et d'analyser votre besoin.
             </p>
             <p>L'objectif est de construire ensemble un projet dont vous êtes l'acteur, l'actrice, afin de dépasser votre problématique.</p>
-            <p>Cette première rencontre est gratuite et permet d'établir un programme de suivi sur plusieurs scéances.</p>
+            <p>Cette première rencontre est gratuite et permet d'établir un programme de suivi sur plusieurs séances.</p>
 
         </div>
 
