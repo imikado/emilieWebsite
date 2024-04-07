@@ -24,7 +24,7 @@ class NavComponent extends ComponentAbstract implements ComponentInterface
     {
         $linkList = [
             'Accueil' => HomePage::FILENAME,
-            'Présentation' => BioPage::FILENAME,
+            'Votre Psy' => BioPage::FILENAME,
             'Psychologie du travail' => PsyOfWorkPage::FILENAME,
             'Bilan de compétences' => SkillAssesmentPage::FILENAME,
             'Contact' => ContactPage::FILENAME

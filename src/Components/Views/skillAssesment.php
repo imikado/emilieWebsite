@@ -1,247 +1,138 @@
 <?php
 
 use MyWebsite\Pages\ContactPage;
+use MyWebsite\Pages\HomePage;
+
 ?><style>
     body {
         background-color: #eee9e4;
     }
 </style>
 <section class="hero is-success pt-6 pb-6" style="background-image:url('css/images/bandeau_bilandecompetences.jpg?t=2024-04-06_1716');background-repeat:no-repeat" ;>
-    <div class="hero-body">
-        <p class="title has-text-centered">Il s'agit de faire un travail sur vous, pour vous et de redéfinir votre travail</p>
+    <div class="hero-body has-text-centered  ">
+        <p class="subtitle ">"Choisis un travail que tu aimes et tu n'auras pas à travailler un seul jour de ta vie"</p>
+        <p class="subtitle is-size-3">Confucius</p>
+
     </div>
 </section>
 
 <section class="section">
-    <div class="container">
-
-
-        <div class="card">
-
-            <div class="card-content">
-                <div class="media">
-                    <div class="media-left">
-                        <figure class="image ">
-                            <img src="css/images/bilandecompetences_image1.jpg" style="width:250px" alt="Placeholder image" />
-                        </figure>
-                    </div>
-                    <div class="media-content">
-
-                        <div class="block is-size-5 has-text-justified	">
-                            <p>
-
-                                Le bilan de compétences, c’est la possibilité pour vous de penser votre travail et non de
-                                penser à votre travail.
-                            </p>
-                        </div>
-
-                        <div class="block is-size-5 has-text-justified	">
-                            <p>
-                                Le bilan de compétences est avant tout une démarche individuelle, personnelle et
-                                personnalisée. Il a pour objectif « de permettre à des travailleurs d’analyser leurs
-                                compétences professionnelles et personnelles ainsi que leurs aptitudes et motivations afin
-                                de définir un projet professionnel et le cas échéant, un projet de formation. Ce bilan ne
-                                peut être réalisé qu’avec le consentement du travailleur. » - Article L6313-10 du Code du
-                                travail.
-
-                            </p>
-                        </div>
+    <div class="container content is-size-5">
 
 
 
-                    </div>
+
+        <div class="columns ml-2 mr-2 ">
+
+
+            <div class="column content">
+
+                <div class="block has-text-justified	">
+                    <p>Il s'agit de faire un travail sur vous, pour vous et de redéfinir votre travail.</p>
+
+                    <p>
+                        Le bilan de compétences est avant tout une démarche individuelle, personnelle et
+                        personnalisée.</p>
+
+                    <h2 class="subtitle has-text-primary">Les objectifs du bilan</h2>
+
+                    <ul>
+                        <li> Vous permettre d'analyser vos
+                            compétences professionnelles et personnelles ainsi que vos aptitudes et motivations afin
+                            de définir un projet professionnel ou de formation (Article L6313-10 du Code du
+                            travail).</li>
+                        <li>Vous recentrer et vous aligner avec un projet professionnel épanouissant qui vous ressemble et qui fasse sens pour vous</li>
+                    </ul>
+
                 </div>
-
 
             </div>
-        </div>
 
+            <div class="column ">
 
-
-
-
-
-        <div class="columns">
-
-
-
-            <div class="column">
-
-
-                <div class="block is-size-5 has-text-justified	">
-                    <p>
-                        Je vous propose un bilan de compétences sur mesure, adapté à vos besoins, vos attentes et
-                        vos objectifs, tout en instaurant un espace d’échange pour vous permettre d’écouter votre
-                        petite voix et vous révéler à vous-même.
-                    </p>
-                </div>
-
-                <div class="block is-size-5 has-text-justified	">
-                    <p>
-                        D’une part, je vous aide à prendre conscience de votre potentiel et de vos compétences.
-                        D’autre part, je vous accompagne à analyser et à explorer votre histoire personnelle, ainsi
-                        qu’à comprendre ce qui fait sens pour vous. Ensemble, nous construisons un projet
-                        personnalisé, épanouissant et aligné avec vos valeurs, vos motivations et vos aspirations.
-                        Nous identifions vos leviers et vos ressources pour concrétiser votre projet, tout en
-                        considérant le contexte socio-économique et le marché de l’emploi dans lequel il prend
-                        place.
-                    </p>
-                </div>
-
-
-
-            </div>
-        </div>
-
-
-
-        <div class="card">
-
-            <div class="card-content">
-                <div class="media">
-
-                    <div class="media-content">
-
-                        <div class="block is-size-5 has-text-justified	">
-                            <p>
-                                Pour mener à bien votre bilan de compétences, j’utilise une méthodologie précise, des
-                                techniques d’entretien, l’écoute active, le questionnement, des exercices, des tests,
-                                questionnaires portant sur votre personnalité, vos intérêts professionnels, vos valeurs, vos
-                                moteurs, votre parcours, vos savoirs, savoir-faire, savoir-être, des référentiels métiers, des
-                                enquêtes métiers, des études de marché…
-                                En fin d’accompagnement, je vous remets un document de synthèse qui est confidentiel et
-                                dont vous êtes le seul destinataire.
-
-                            </p>
-                        </div>
-
-
-
-                    </div>
-                    <div class="media-right">
+                <div class="card">
+                    <div class="card-image">
                         <figure class="image ">
-                            <img src="css/images/bilandecompetences_image2.jpg" style="width:250px" alt="Placeholder image" />
+                            <img src="css/images/bilandecompetences_image1.jpg" alt="Placeholder image" />
                         </figure>
                     </div>
                 </div>
-
-
-            </div>
-        </div>
-
-
-        <div class="block">
-
-
-            <div class="block is-size-5 has-text-justified	">
-                <p>
-                    Le bilan de compétences vous permet de vous recentrer et de vous aligner avec un (des)
-                    projet(s) professionnel(s) épanouissant qui vous ressemble et qui fasse sens pour vous.
-
-                </p>
-            </div>
-
-            <div class="block is-size-5 has-text-justified	">
-                <p>
-                    On peut en échanger lors d’un rendez-vous gratuit, <a class="button" href="<?php echo ContactPage::FILENAME ?>">Contactez-moi.</a>
-                </p>
             </div>
 
         </div>
 
+        <div class="block content ml-2 mr-2">
+
+            <h2 class="subtitle has-text-primary">Un bilan de compétences sur mesure</h2>
 
 
-        <div class="columns">
+            <p>
+                Je vous propose un bilan adapté à vos besoins, vos attentes et
+                vos objectifs, tout en instaurant un espace d’échange pour vous permettre d’écouter votre
+                petite voix et vous révéler à vous-même.
+            </p>
 
+            <p>
+                <span class="emphase"> D’une part</span>, je vous aide à prendre conscience de votre potentiel et de vos compétences.
+            </p>
+            <p>
+                <span class="emphase">D’autre part</span>, je vous accompagne à analyser et à explorer votre histoire personnelle, ainsi
+                qu’à comprendre ce qui fait sens pour vous.
+            </p>
+            <p><span class="emphase">Ensemble</span>, nous construisons un projet
+                personnalisé, épanouissant et aligné avec vos valeurs, vos motivations et vos aspirations.
+                Nous identifions vos leviers et vos ressources pour concrétiser votre projet, tout en
+                considérant le contexte socio-économique et le marché de l’emploi dans lequel il prend
+                place.
+            </p>
 
-            <div class="column">
-
-                <article class="message is-text">
-                    <div class="message-body is-size-6 has-text-justified  has-background-white	">
-
-
-                        <div class="block">
-                            <p>
-                                Le bilan de compétences peut vous aider si vous vous trouvez dans l’une de ces
-                                situations :
-                            <ul>
-                                <li>- Vous n’êtes plus épanoui(e) dans votre travail, vous n’êtes pas ou plus heureux(se)
-                                    dans ce que vous faîtes.</li>
-                                <li>- Vous souhaitez réfléchir à une nouvelle orientation professionnelle.</li>
-                                <li>- Vous avez besoin d’un changement mais vous ne savez pas par où commencer.</li>
-                                <li>- Vous avez besoin de faire le point sur votre carrière pour vous projet avec plus de
-                                    sérénité pour la suite.</li>
-                                <li>- Vous vous trouvez dans une période de changement et avec besoin d’être
-                                    accompagné(e) pour avancer.</li>
-                                <li>- Vous ne pouvez plus évoluer dans votre entreprise.</li>
-                                <li>- Vous souhaitez changer de métier, suivre une formation, mais ne savez pas par où
-                                    commencer.</li>
-                                <li>- Vous souhaitez valider une idée de projet professionnel.</li>
-                                <li>- Vous doutez de vos compétences et ne savez pas comment vous positionner sur le
-                                    marché du travail.</li>
-                            </ul>
-                            </p>
-
-                        </div>
-                    </div>
-                </article>
-
-            </div>
-            <div class="column">
-
-
-
-                <article class="message is-text">
-                    <div class="message-body is-size-6 has-text-justified	 has-background-white">
-
-
-                        <div class="block">
-                            <p>
-                                Le bilan de compétences est une démarche structurée. Il comprend :
-                            <ul>
-                                <li>-« Une phase préliminaire qui a pour objet :</li>
-                                <li>- D’analyser la demande et le besoin du bénéficiaire.</li>
-                                <li>- De déterminer le format le plus adapté à la situation et au besoin.</li>
-                                <li>- De définir conjointement les modalités de déroulement du bilan.</li>
-                                <li>-Une phase d’investigation permettant au bénéficiaire soit de construire son projet
-                                    professionnel et d’en vérifier la pertinence, soit d’élaborer une ou plusieurs alternatives.</li>
-                                <li>-Une phase de conclusions qui, par la voie d’entretiens personnalisés, permet au
-                                    bénéficiaire :</li>
-                                <li>- De s’approprier les résultats détaillés de la phase d’investigation;
-                                    De recenser les conditions et moyens favorisant la réalisation du ou des projets
-                                    professionnels;
-                                    De prévoir les principales modalités et étapes du ou des projets professionnels,
-                                    dont la possibilité de bénéficier d’un entretien de suivi avec le prestataire de bilan
-                                    de compétences. »</li>
-                                <li>-Un entretien post-bilan à 6 mois.</li>
-                            </ul>
-
-                            </p>
-                            <p class="has-text-right">
-                                <i>Article R6313-4 du code du travail.</i>
-                            </p>
-                        </div>
-                    </div>
-                </article>
-
-
-
-
-
-
-
-
-            </div>
         </div>
 
 
 
 
 
+        <div class="block content ml-2 mr-2">
+            <h2 class="subtitle has-text-primary">Mes outils</h2>
+        </div>
 
 
-    </div>
-    </div>
+        <div class="block  has-text-justified	ml-2 mr-2">
+            <p>
+                Pour mener à bien votre bilan de compétences, j’utilise une méthodologie précise, des
+                techniques d’entretien, l’écoute active, le questionnement, des exercices, des tests,
+                questionnaires portant sur votre personnalité, vos intérêts professionnels, vos valeurs, vos
+                moteurs, votre parcours, vos savoirs, savoir-faire, savoir-être, des référentiels métiers, des
+                enquêtes métiers, des études de marché…</p>
+            <p>
+                En fin d’accompagnement, je vous remets un document de synthèse qui est confidentiel et
+                dont vous êtes le seul destinataire.
+
+            </p>
+        </div>
+
+        <div class="block mt-5">
+            <h2 class="subtitle has-text-primary">La 1<sup>ère</sup> scéance</h2>
+        </div>
+
+
+
+        <div class="block has-text-justified	">
+
+            <p>Elle permet d'analyser votre situation et d'analyser votre besoin.
+            </p>
+            <p>L'objectif est de construire ensemble un projet dont vous êtes l'acteur, l'actrice, afin de dépasser votre problématique.</p>
+            <p>Cette première rencontre est gratuite et permet d'établir un programme de suivi sur plusieurs scéances.</p>
+
+        </div>
+
+        <p class="mt-4 has-text-centered"><a class="button is-primary has-text-white" href="<?php echo HomePage::DOCTOLIB_LINK ?>">Prendre rendez-vous</a></p>
+
+
+
+
+
+
 
 
 

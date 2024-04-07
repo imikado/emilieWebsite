@@ -9,8 +9,7 @@ use MyWebsite\Pages\SkillAssesmentPage;
 
 <section class="hero is-success pt-6 pb-6" style="background-image:url('css/images/bandeau_home.jpg?t=2024-04-06_1728');background-repeat:no-repeat" ;>
     <div class="hero-body has-text-centered  ">
-        <p class="title has-text-primary">Psychologue du travail</p>
-        <p class="subtitle has-text-centered ">Souffrance au travail & Bilan de compétences</p>
+        <p class="title">Bien dans sa vie! Bien au travail!</p>
 
     </div>
 </section>
@@ -22,34 +21,31 @@ use MyWebsite\Pages\SkillAssesmentPage;
 
         <div class="columns">
 
-            <div class="column  has-text-centered">
+            <div class="column"></div>
+
+            <div class="column is-three-fifths has-text-centered">
                 <h1 class="title has-text-primary">Bienvenue !</h1>
 
-                <div class="block is-size-5  	">
-                    <p>Je suis psychologue du travail et consultante en bilan de compétences à Vincennes (94).</p>
-                </div>
-                <div class="block is-size-5 	">
-
-                    <p>J’accompagne des étudiants, actifs, salarié et demandeurs d'emploi.</p>
-                </div>
-                <div class="block is-size-5 	">
-
-                    <p>Je vous reçois directement au cabinet situé à Vincennes (94) mais aussi en visio, n’hésitez
-                        pas à me <a class="has-text-primary" href="<?php echo ContactPage::FILENAME ?>">contacter</a> pour plus d’informations.</p>
+                <div class="block is-size-2 content emphase">
+                    <p>Je m'appelle <span class="has-text-primary">Emilie</span>,
+                        je suis psychologue</p>
                 </div>
 
-                <div class="block is-size-5  	">
 
-                    <p>Je suis disponible les lundi, mardi, jeudi et vendredi, de 9h à 19h.</p>
+                <div class="block is-size-5 content has-text-justified">
 
+                    <p>Je vous écoute, vous oriente, et vous accompagne vers un mieux-être au travail.</p>
+                    <p>Je vous aide à trouver la voie de votre équilibre et de votre épanouissement.</p>
+                    <p>J'interviens sur des problématiques en lien avec la sphère professionnelle, que ce soit sur la souffrance au travail,
+                        ou encore pour surmonter une situation complexe, franchir un cap, amorcer une transition.</p>
                 </div>
-                <div class="block is-size-5  	">
-                    <p>Vous pouvez prendre rendez-vous via <a href="<?php echo HomePage::DOCTOLIB_LINK ?>"><img src="css/images/DoctolibLogo.png" /></a></p>
 
-                </div>
+
 
 
             </div>
+
+            <div class="column"></div>
 
         </div>
 
@@ -106,9 +102,62 @@ use MyWebsite\Pages\SkillAssesmentPage;
         </div>
 
 
-        <div class="columns mt-6 ">
+        <div class="block mt-6">
+            <h1 class="title has-text-primary has-text-centered">Pourquoi consulter ?</h1>
+        </div>
 
 
+        <div class="columns">
+
+            <div class="column"></div>
+
+            <div class="column is-half has-text-justified">
+
+                <div class="block is-size-5 content has-text-justified">
+
+                    <p>Vous êtes en situation d'emploi ou en période d'inactivité, et :</p>
+                    <ul>
+                        <li>Vous traversez une phase difficile liée au travail</li>
+                        <li>Vous avez besoin de donner un nouveau sens à votre vie</li>
+                        <li>Vous ressentez l'envie de donner un nouvel élan à votre carrière</li>
+                    </ul>
+                    <p class="mt-4 has-text-centered"><a class="button is-primary has-text-white" href="<?php echo HomePage::DOCTOLIB_LINK ?>">Prendre rendez-vous</a></p>
+                </div>
+
+            </div>
+
+            <div class="column"></div>
+        </div>
+
+
+
+        <div class="columns mt-2">
+
+
+
+            <div class="column">
+                <article class="message is-success">
+                    <div class="message-header is-size-5 has-text-white">
+                        <p>Informations pratiques</p>
+                    </div>
+                    <div class="message-body content is-size-5" style="min-height: 300px">
+
+                        <ul class="mt-0 has-text-justified">
+                            <li>Je vous reçois directement au cabinet situé à Vincennes (94) mais aussi en visio, n’hésitez
+                                pas à me <a class="has-text-primary" href="<?php echo ContactPage::FILENAME ?>">contacter</a> pour plus d’informations.</li>
+
+
+                            <li>Je suis disponible les lundi, mardi, jeudi et vendredi, de 9h à 19h.</li>
+
+                            <li>Vous pouvez prendre rendez-vous via <a href="<?php echo HomePage::DOCTOLIB_LINK ?>"><img src="css/images/DoctolibLogo.png" /></a></li>
+
+
+                        </ul>
+
+                    </div>
+                </article>
+
+            </div>
 
             <div class="column">
 
@@ -116,20 +165,24 @@ use MyWebsite\Pages\SkillAssesmentPage;
 
                 <article class="message is-success">
                     <div class="message-header is-size-5 has-text-white">
-                        <p>Prix des séances :</p>
+                        <p>Prix des séances</p>
                     </div>
-                    <div class="message-body content is-size-5">
-                        <ul>
+                    <div class="message-body content is-size-5" style="min-height: 300px">
+                        <ul class="mt-0 has-text-justified">
                             <li>Consultation psychologique : 70€ entre 45 min et 1h (certaines mutuelles prennent en charge un nombre de séances)</li>
                             <li>Bilan de compétences : peut être 100% financé par le CPF</li>
                         </ul>
+                        <p>&nbsp;</p>
                     </div>
                 </article>
 
             </div>
 
-
         </div>
+
+
+
+
 
 
     </div>

@@ -61,12 +61,18 @@
 
     .subtitle {
       font-family: "Licorice";
+      font-size: 3em;
 
     }
 
     body {
       background: white;
       background-repeat: repeat;
+    }
+
+    .emphase {
+      font-family: "Licorice";
+      font-size: 2em;
     }
   </style>
 
