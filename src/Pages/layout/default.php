@@ -13,6 +13,9 @@
   <link href="https://fonts.googleapis.com/css2?family=Licorice&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Licorice&family=Lora:ital,wght@0,400..700;1,400..700&display=swap" rel="stylesheet">
 
+
+  <link rel="stylesheet" href="https://bulma.io/vendor/fontawesome-free-5.15.2-web/css/all.min.css">
+
   <style>
     :root {
       /* CSS Variables */
@@ -79,22 +82,70 @@
 </head>
 
 <body>
-  <?php echo $this->paramList['nav']->render() ?>
+  <?php
+
+  use MyWebsite\Pages\HomePage;
+
+  echo $this->paramList['nav']->render() ?>
 
   <?php foreach ($this->paramList['contentList'] as $contentLoop) :
     echo $contentLoop->render();
   endforeach; ?>
 
   <footer class="footer">
-    <div class="content has-text-centered">
-      <p>
-        <strong>Bulma</strong> by <a href="https://jgthms.com">Jeremy Thomas</a>.
-        The source code is licensed
-        <a href="http://opensource.org/licenses/mit-license.php">MIT</a>. The
-        website content is licensed
-        <a href="http://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY NC SA 4.0</a>.
-      </p>
+
+
+    <div class="columns content is-size-7 ml-4">
+      <div class="column">
+
+        <h2 class="has-text-primary">Emilie Pereira</h2>
+
+        <p>Psychologue du travail</p>
+
+        <p>Adeli: 949334213</p>
+
+        <p><a class="button is-default has-text-default is-small" href="https://www.codededeontologiedespsychologues.fr/IMG/pdf/Code_deontologie_psychologue_9-09-2021.pdf" class="is-link">Code de déontologie</a></p>
+
+
+      </div>
+      <div class="column">
+        <h2 class="has-text-primary">Consultations</h2>
+
+        <p>Psychologie du travail</p>
+        <p>Bilan de compétences</p>
+
+        <p class="mt-2"><a class="button is-default has-text-primary is-small" href="<?php echo HomePage::DOCTOLIB_LINK ?>">Prendre rendez-vous</a></p>
+
+
+      </div>
+      <div class="column">
+
+        <h2 class="has-text-primary">Contact</h2>
+
+        <p><span class="icon-text">
+            <span class="icon">
+              <i class="fas fa-phone"></i>
+            </span>
+            <span>07 56 83 31 49</span>
+          </span></p>
+
+        <p><span class="icon-text">
+            <span class="icon">
+              <i class="fas fa-envelope"></i>
+            </span>
+            <span> <a class="is-link has-text-default" style="color:#333" href="mailto:emilie.pereira.lam.pro@gmail.com">emilie.pereira.lam.pro@gmail.com</a></span>
+          </span></p>
+
+        <p>
+          <a class="button is-default has-text-default is-small" href="https://www.linkedin.com/in/pereiraemilie/">Linkedin</a>
+        </p>
+
+
+      </div>
+
     </div>
+
+
   </footer>
 
   <script>

@@ -9,7 +9,7 @@ use MyWebsite\Pages\SkillAssesmentPage;
 
 <section class="hero is-success pt-6 pb-6" style="background-image:url('css/images/bandeau_home.jpg?t=2024-04-06_1728');background-repeat:no-repeat" ;>
     <div class="hero-body has-text-centered  ">
-        <p class="title">Bien dans sa vie! Bien au travail!</p>
+        <p class="subtitle">Bien dans sa vie! Bien au travail!</p>
 
     </div>
 </section>
