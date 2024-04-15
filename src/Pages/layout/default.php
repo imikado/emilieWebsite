@@ -84,6 +84,7 @@
 <body>
   <?php
 
+  use MyWebsite\Pages\CreditsPage;
   use MyWebsite\Pages\HomePage;
 
   echo $this->paramList['nav']->render() ?>
@@ -133,26 +134,29 @@
             <span class="icon">
               <i class="fas fa-envelope"></i>
             </span>
-            <span> <a class="is-link has-text-default" style="color:#333" href="mailto:emilie.pereira.lam.pro@gmail.com">emilie.pereira.lam.pro@gmail.com</a></span>
+            <span> <a class="is-link has-text-primary" href="mailto:emilie.pereira.lam.pro@gmail.com">emilie.pereira.lam.pro@gmail.com</a></span>
           </span></p>
 
         <p><span class="icon-text">
             <span class="icon">
               <i class="fas fa-map-marker-alt"></i>
             </span>
-            <span> <a class="is-link has-text-default" style="color:#333" href="mailto:emilie.pereira.lam.pro@gmail.com">9 rue de l'Egalité, 94300 Vincennes</a></span>
+            <span> <a class="is-link has-text-primary" href="mailto:emilie.pereira.lam.pro@gmail.com">9 rue de l'Egalité, 94300 Vincennes</a></span>
           </span></p>
 
 
 
         <p>
-          <a class="button is-default has-text-default is-small" href="https://www.linkedin.com/in/pereiraemilie/">Linkedin</a>
+          <a class="button is-default has-text-default is-small" href="https://www.linkedin.com/in/pereiraemilie/"><img style="height:16px" src="css/images/LI-In-Logo.png" /></a>
         </p>
+
 
 
       </div>
 
     </div>
+
+    <p class="has-text-centered"><a class="button  has-text-default is-small" href="<?php echo CreditsPage::FILENAME ?>">Crédits</a>
 
 
   </footer>

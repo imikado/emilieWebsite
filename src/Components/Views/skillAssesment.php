@@ -41,7 +41,8 @@ use MyWebsite\Pages\HomePage;
                             compétences professionnelles et personnelles ainsi que vos aptitudes et motivations afin
                             de définir un projet professionnel ou de formation (Article L6313-10 du Code du
                             travail).</li>
-                        <li>Vous recentrer et vous aligner avec un projet professionnel épanouissant qui vous ressemble et qui fasse sens pour vous</li>
+                        <li>Vous recentrer et vous aligner avec un projet professionnel épanouissant
+                            qui vous ressemble et qui fasse sens pour vous.</li>
                     </ul>
 
                 </div>
@@ -92,7 +93,7 @@ use MyWebsite\Pages\HomePage;
 
 
 
-        <div class="block content ml-2 mr-2">
+        <div class="block content ml-2 mr-2 mt-6">
             <h2 class="subtitle has-text-primary">Mes outils</h2>
         </div>
 
@@ -121,8 +122,8 @@ use MyWebsite\Pages\HomePage;
 
             <p>Elle permet d'analyser votre situation et d'analyser votre besoin.
             </p>
-            <p>L'objectif est de construire ensemble un projet dont vous êtes l'acteur, l'actrice, afin de dépasser votre problématique.</p>
-            <p>Cette première rencontre est gratuite et permet d'établir un programme de suivi sur plusieurs séances.</p>
+            <p>L'objectif est de construire ensemble un projet dont vous êtes acteur / actrice, afin de dépasser votre problématique.</p>
+            <p>Ce premier échange est gratuit et permet d'établir un programme de suivi sur plusieurs séances.</p>
 
         </div>
 

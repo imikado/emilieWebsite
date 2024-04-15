@@ -35,22 +35,20 @@ use MyWebsite\Pages\HomePage; ?>
                     <h2 class="subtitle has-text-primary">Je vous accompagne dans</h2>
                 </div>
 
-                <div class="block has-text-justified	">
+                <div class="block has-text-justified">
 
                     <ul>
 
                         <li> la gestion du stress</li>
                         <li>
                             l’épuisement professionnel : burn-out, bore out</li>
-                        <li>les conflits interpersonnels,</li>
-                        <li> le manque de confiance en soi,</li>
-                        <li> le sentiment d’isolement,</li>
-                        <li> les situations de harcèlement,</li>
-                        <li> l’équilibre vie privée / vie professionnelle…</li>
+                        <li>les conflits interpersonnels</li>
+                        <li> le manque de confiance en soi</li>
+                        <li> le sentiment d’isolement</li>
+                        <li> les situations de harcèlement</li>
+                        <li> l’équilibre vie privée / vie professionnelle</li>
                     </ul>
-                    <p>
-                        Mon rôle est d’être à votre écoute, de vous questionner, de vous guider dans des pistes de
-                        réflexion.</p>
+
                 </div>
 
             </div>
@@ -71,6 +69,11 @@ use MyWebsite\Pages\HomePage; ?>
             </div>
         </div><!--COLUMNS END-->
 
+        <div class="block content">
+            <p>
+                Mon rôle est d’être à votre écoute, de vous questionner, de vous guider dans des pistes de réflexion.</p>
+        </div>
+
 
         <div class="columns"><!--COLUMNS BEGIN-->
             <div class="column">
@@ -87,9 +90,9 @@ use MyWebsite\Pages\HomePage; ?>
                     <p>
                         Nous vivons à une époque où le travail exige
                         constamment un engagement personnel, souvent au détriment de notre équilibre et de
-                        notre santé. Il peut arriver que nos préoccupations professionnelles envahissent notre vie
-                        privée, familiale et sociale ; ou encore, que nous puissions nous sentir submergés par des
-                        événements difficiles, et en parler avec notre entourage ne suffit pas.
+                        notre santé. Nos préoccupations professionnelles peuvent envahir notre vie privée, familiale et sociale.
+                        Nous pouvons nous sentir submergés par des événements difficiles, et en parler avec
+                        notre entourage ne suffit pas.
                     </p>
 
 
@@ -112,7 +115,7 @@ use MyWebsite\Pages\HomePage; ?>
 
                     <p>Elle permet d'analyser votre situation et d'analyser votre besoin.
                     </p>
-                    <p>L'objectif est de construire ensemble un projet dont vous êtes l'acteur, l'actrice, afin de dépasser votre problématique.</p>
+                    <p>L'objectif est de construire ensemble un projet dont vous êtes acteur / actrice, afin de dépasser votre problématique.</p>
                     <p>Cette première rencontre nous amènera à établir un plan d'action sur une ou plusieurs consultations.</p>
 
                 </div>

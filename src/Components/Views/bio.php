@@ -1,7 +1,7 @@
 <section class="hero is-success pt-6 pb-6" style="background-image:url('css/images/bandeau_bio.jpg?t=2024-04-06_1730');background-repeat:no-repeat" ;>
     <div class="hero-body has-text-centered  ">
         <p class="subtitle is-size-2 ">"Accompagner quelqu'un ne consiste pas à le porter sur ses épaules mais à lui apprendre à se servir de ses ailes"</p>
-        <p class="subtitle is-size-3">Anne-marie Jobin</p>
+        <p class="subtitle is-size-3">Anne-Marie Jobin</p>
 
     </div>
 </section>
@@ -30,7 +30,7 @@
 
                 <div class="block  has-text-justified	">
                     <p> Je suis psychologue du travail. Je vous accompagne en libéral,
-                        dans mon cabinet à Vincennes ou au sein de structures spécialisées dans le bilan de compétence, sur des prestations individuelles.</p>
+                        dans mon cabinet à Vincennes ou au sein de structures spécialisées dans le bilan de compétences, sur des prestations individuelles.</p>
 
                 </div>
 
@@ -72,10 +72,10 @@
                 </div>
 
 
-                <div class="block   has-text-justified	">
+                <div class="block content  has-text-justified	">
 
-                    <p>Au sein de mon cabinet, je vous accueille en toute bienveillance, dans le respect du code de
-                        déontologie des psychologues et du secret professionnel. En plus des valeurs de
+                    <p>Au sein de mon cabinet, je vous accueille en toute bienveillance, dans le respect du <a class="has-text-primary" href="https://www.codededeontologiedespsychologues.fr/IMG/pdf/Code_deontologie_psychologue_9-09-2021.pdf">code de
+                            déontologie des psychologues</a> et du secret professionnel. En plus des valeurs de
                         bienveillance, d’écoute, d’ouverture, j’ai un devoir de non-jugement, de confidentialité, de
                         déontologie, d’éthique et de transparence envers vous, conformément aux normes
                         professionnelles de ma pratique.</p>

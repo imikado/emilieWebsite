@@ -115,7 +115,7 @@ use MyWebsite\Pages\SkillAssesmentPage;
 
                 <div class="block is-size-5 content has-text-justified">
 
-                    <p>Vous êtes en situation d'emploi ou en période d'inactivité, et :</p>
+                    <p>Vous êtes en situation d'emploi ou en période d'inactivité :</p>
                     <ul>
                         <li>Vous traversez une phase difficile liée au travail</li>
                         <li>Vous avez besoin de donner un nouveau sens à votre vie</li>
@@ -143,8 +143,8 @@ use MyWebsite\Pages\SkillAssesmentPage;
                     <div class="message-body content is-size-5" style="min-height: 300px">
 
                         <ul class="mt-0 has-text-justified">
-                            <li>Je vous reçois directement au cabinet situé à Vincennes (94) mais aussi en visio, n’hésitez
-                                pas à me <a class="has-text-primary" href="<?php echo ContactPage::FILENAME ?>">contacter</a> pour plus d’informations.</li>
+                            <li>Je vous reçois au cabinet situé à Vincennes (94) mais aussi en visio, n’hésitez
+                                pas à me <a class="has-text-primary" style="text-decoration: none" href="<?php echo ContactPage::FILENAME ?>">contacter</a> pour plus d’informations.</li>
 
 
                             <li>Je suis disponible les lundi, mardi, jeudi et vendredi, de 9h à 19h.</li>
@@ -169,7 +169,7 @@ use MyWebsite\Pages\SkillAssesmentPage;
                     </div>
                     <div class="message-body content is-size-5" style="min-height: 300px">
                         <ul class="mt-0 has-text-justified">
-                            <li>Consultation psychologique : 70€ entre 45 min et 1h (certaines mutuelles prennent en charge un nombre de séances)</li>
+                            <li>Consultation psychologique : 70€ entre 45 min et 1h (prise en charge possible par certaines mutuelles)</li>
                             <li>Bilan de compétences : peut être 100% financé par le CPF</li>
                         </ul>
                         <p>&nbsp;</p>
