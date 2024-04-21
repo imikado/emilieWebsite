@@ -140,7 +140,7 @@ use MyWebsite\Pages\SkillAssesmentPage;
                     <div class="message-header is-size-5 has-text-white">
                         <p>Informations pratiques</p>
                     </div>
-                    <div class="message-body content is-size-5" style="min-height: 300px">
+                    <div class="message-body has-primary-background content is-size-5" style="min-height: 300px;background-color:#f8f5f2">
 
                         <ul class="mt-0 has-text-justified">
                             <li>Je vous reçois au cabinet situé à Vincennes (94) mais aussi en visio, n’hésitez
@@ -167,7 +167,7 @@ use MyWebsite\Pages\SkillAssesmentPage;
                     <div class="message-header is-size-5 has-text-white">
                         <p>Prix des séances</p>
                     </div>
-                    <div class="message-body content is-size-5" style="min-height: 300px">
+                    <div class="message-body content is-size-5" style="min-height: 300px;background-color:#f8f5f2">
                         <ul class="mt-0 has-text-justified">
                             <li>Consultation psychologique : 70€ entre 45 min et 1h (prise en charge possible par certaines mutuelles)</li>
                             <li>Bilan de compétences : peut être 100% financé par le CPF</li>

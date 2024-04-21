@@ -33,20 +33,40 @@
       --bulma-primary-s: 25.83%;
       --bulma-primary-l: 52.94%;
 
+      --bulma-primary-dark: hsla(var(--bulma-primary-h), var(--bulma-primary-s), var(--bulma-primary-l), 1);
+      /* hsl(23.23, 25.83%, 52.94%)  */
+      --bulma-primary-h-dark: 23.23;
+      --bulma-primary-s-dark: 25.83%;
+      --bulma-primary-l-dark: 52.94%;
+
+
       /* hsl(34.29, 28.57%, 80.78%) */
       --bulma-success: hsla(var(--bulma-success-h), var(--bulma-success-s), var(--bulma-success-l), 1);
       --bulma-success-h: 34.29;
       --bulma-success-s: 28.57%;
       --bulma-success-l: 80.78%;
 
+      --bulma-success-dark: hsla(var(--bulma-success-h), var(--bulma-success-s), var(--bulma-success-l), 1);
+      --bulma-success-h-dark: 34.29;
+      --bulma-success-s-dark: 28.57%;
+      --bulma-success-l-dark: 80.78%;
+
       --bulma-info: hsla(var(--bulma-info-h), var(--bulma-info-s), var(--bulma-info-l), 1);
       --bulma-info-h: 46;
       --bulma-info-s: 72%;
       --bulma-info-l: 92%;
 
+      --bulma-info-dark: hsla(var(--bulma-info-h), var(--bulma-info-s), var(--bulma-info-l), 1);
+      --bulma-info-h-dark: 46;
+      --bulma-info-s-dark: 72%;
+      --bulma-info-l-dark: 92%;
+
 
       --bulma-info: var(--custom-color3);
       --bulma-info-base: var(bulma-info);
+
+      --bulma-info-dark: var(--custom-color3);
+      --bulma-info-base-dark: var(bulma-info);
 
       --bulma-link: var(--custom-color3);
 
@@ -93,7 +113,7 @@
     echo $contentLoop->render();
   endforeach; ?>
 
-  <footer class="footer">
+  <footer class="footer" style="background-color:#f9fafb">
 
 
     <div class="columns content is-size-7 ml-4">
@@ -105,7 +125,7 @@
 
         <p>Adeli: 949334213</p>
 
-        <p><a class="button is-default has-text-default is-small" href="https://www.codededeontologiedespsychologues.fr/IMG/pdf/Code_deontologie_psychologue_9-09-2021.pdf" class="is-link">Code de déontologie</a></p>
+        <p><a class="button is-default has-text-black is-small has-background-white" href="https://www.codededeontologiedespsychologues.fr/IMG/pdf/Code_deontologie_psychologue_9-09-2021.pdf" class="is-link">Code de déontologie</a></p>
 
 
       </div>
@@ -115,7 +135,7 @@
         <p>Psychologie du travail</p>
         <p>Bilan de compétences</p>
 
-        <p class="mt-2"><a class="button is-default has-text-primary is-small" href="<?php echo HomePage::DOCTOLIB_LINK ?>">Prendre rendez-vous</a></p>
+        <p class="mt-2"><a class="button is-default has-text-primary is-small has-background-white" href="<?php echo HomePage::DOCTOLIB_LINK ?>">Prendre rendez-vous</a></p>
 
 
       </div>
@@ -147,7 +167,7 @@
 
 
         <p>
-          <a class="button is-default has-text-default is-small" href="https://www.linkedin.com/in/pereiraemilie/"><img style="height:16px" src="css/images/LI-In-Logo.png" /></a>
+          <a class="button is-default has-text-default is-small has-background-white" href="https://www.linkedin.com/in/pereiraemilie/"><img style="height:16px" src="css/images/LI-In-Logo.png" /></a>
         </p>
 
 
@@ -156,7 +176,7 @@
 
     </div>
 
-    <p class="has-text-centered"><a class="button  has-text-default is-small" href="<?php echo CreditsPage::FILENAME ?>">Crédits</a>
+    <p class="has-text-centered"><a class="button  has-text-black is-small has-background-white" href="<?php echo CreditsPage::FILENAME ?>">Crédits</a>
 
 
   </footer>
