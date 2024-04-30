@@ -1,7 +1,10 @@
 <nav style="background:rgba(255,255,255,0.8)" class="navbar navbar-wrapper navbar-default navbar-fade" role="navigation" aria-label="main navigation">
 
     <div class="navbar-brand">
+        <img src="css/images/birdSimple78x.png" />
+
         <a class="navbar-item has-text-primary is-size-2 emphase" href="index.html">
+
             Emilie Pereira
         </a>
 
