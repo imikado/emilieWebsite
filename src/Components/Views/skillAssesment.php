@@ -145,7 +145,7 @@ use MyWebsite\Pages\HomePage;
                     'partenaireArtusRH.jpg',
                     'partenaire_sprintFormation.jpg'
                 ] as $partnerLoop) : ?>
-                    <img class="mr-2 ml-2" src="css/images/<?php echo $partnerLoop ?>" />
+                    <img class="mr-2 ml-2" src="css/images/<?php echo $partnerLoop ?>?time=<?php echo date('Ymdhi') ?>" />
                 <?php endforeach; ?>
 
             </div>
