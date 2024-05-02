@@ -181,24 +181,7 @@ use MyWebsite\Pages\SkillAssesmentPage;
         </div>
 
 
-        <div class="block mt-6">
-            <h1 class="title has-text-primary has-text-centered">Mes partenaires</h1>
-        </div>
 
-
-        <div class="columns">
-            <div class="column has-text-centered">
-                <?php foreach ([
-                    'partenaireOPYXIS.jpg',
-                    'partenaireArtusRH.jpg',
-                    'partenaire_sprintFormation.jpg'
-                ] as $partnerLoop) : ?>
-                    <img class="mr-2 ml-2" src="css/images/<?php echo $partnerLoop ?>" />
-                <?php endforeach; ?>
-
-            </div>
-
-        </div>
 
 
 

@@ -131,7 +131,26 @@ use MyWebsite\Pages\HomePage;
 
 
 
+        <div class="block mt-5">
+            <h2 class="subtitle has-text-primary">Mes partenaires</h2>
+        </div>
 
+
+
+
+        <div class="columns">
+            <div class="column ">
+                <?php foreach ([
+                    'partenaireOPYXIS.jpg',
+                    'partenaireArtusRH.jpg',
+                    'partenaire_sprintFormation.jpg'
+                ] as $partnerLoop) : ?>
+                    <img class="mr-2 ml-2" src="css/images/<?php echo $partnerLoop ?>" />
+                <?php endforeach; ?>
+
+            </div>
+
+        </div>
 
 
 
