@@ -141,9 +141,9 @@ use MyWebsite\Pages\HomePage;
         <div class="columns">
             <div class="column ">
                 <?php foreach ([
-                    'partenaireOPYXIS.jpg',
-                    'partenaireArtusRH.jpg',
-                    'partenaire_sprintFormation.jpg'
+                    'partenaireOPYXIS.png',
+                    'partenaireArtusRH.png',
+                    'partenaire_sprintFormation.png'
                 ] as $partnerLoop) : ?>
                     <img class="mr-2 ml-2" src="css/images/<?php echo $partnerLoop ?>?time=<?php echo date('Ymdhi') ?>" />
                 <?php endforeach; ?>
