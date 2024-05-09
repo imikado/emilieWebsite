@@ -131,7 +131,7 @@ use MyWebsite\Pages\HomePage;
 
 
 
-        <div class="block mt-5">
+        <div class="block mt-6">
             <h2 class="subtitle has-text-primary">Mes partenaires</h2>
         </div>
 
