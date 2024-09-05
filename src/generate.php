@@ -4,6 +4,7 @@ use MyWebsite\Pages\BioPage;
 use MyWebsite\Pages\ContactPage;
 use MyWebsite\Pages\CreditsPage;
 use MyWebsite\Pages\HomePage;
+use MyWebsite\Pages\MaternityAndWorkPage;
 use MyWebsite\Pages\PsyOfWorkPage;
 use MyWebsite\Pages\SkillAssesmentPage;
 
@@ -16,7 +17,8 @@ $pagesList = [
     new SkillAssesmentPage(),
     new ContactPage(),
     new BioPage(),
-    new CreditsPage()
+    new CreditsPage(),
+    new MaternityAndWorkPage()
     //new OtherPage()
 
 ];

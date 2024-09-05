@@ -47,6 +47,7 @@ use MyWebsite\Pages\HomePage; ?>
                         <li> le sentiment d’isolement</li>
                         <li> les situations de harcèlement</li>
                         <li> l’équilibre vie privée / vie professionnelle</li>
+                        <li> la conciliation grossesse / maternité / parentalité et travail</li>
                     </ul>
 
                 </div>

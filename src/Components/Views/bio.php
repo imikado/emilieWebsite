@@ -30,7 +30,7 @@
 
                 <div class="block  has-text-justified	">
                     <p> Je suis psychologue du travail. Je vous accompagne en libéral,
-                        dans mon cabinet à Vincennes ou au sein de structures spécialisées dans le bilan de compétences, sur des prestations individuelles.</p>
+                        dans mon cabinet à Vincennes, à Nogent sur Marne ou au sein de structures spécialisées dans le bilan de compétences, sur des prestations individuelles et des ateliers collectifs.</p>
 
                 </div>
 
@@ -61,8 +61,9 @@
                     <p>Aujourd’hui, j’utilise mon expérience et mes connaissances approfondies du monde
                         professionnel pour me consacrer à l’accompagnement des personnes, que ce soit sur des
                         problématiques spécifiques liées à leur travail (stress, burn-out, conflits, manque de
-                        confiance en soi, équilibre vie privée / vie professionnelle…) ou encore sur leur parcours
-                        (reconversion, (ré)orientation, évolution, perte de sens au travail...).</p>
+                        confiance en soi, équilibre vie privée / vie professionnelle…), sur leur parcours (reconversion, (ré)orientation, évolution, perte de sens au travail...), ou alors à un
+                        moment clé de leur vie (maternité, parentalité).
+                    </p>
                 </div>
 
 

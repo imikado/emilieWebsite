@@ -98,6 +98,26 @@ use MyWebsite\Pages\SkillAssesmentPage;
 
             </div>
 
+            <div class="column">
+
+                <div class="card">
+                    <div class="card-image">
+                        <figure class="image is-4by3">
+                            <img src="css/images/home_bilanDeCompetences.jpg" alt="Placeholder image" />
+                        </figure>
+                    </div>
+
+                    <footer class="card-footer">
+                        <a title="text du Psychologie du travail" class="card-footer-item has-text-primary has-text-weight-bold is-size-4" href="<?php echo SkillAssesmentPage::FILENAME ?>">
+                            Atelier Maternité & Travail
+                        </a>
+
+                    </footer>
+                </div>
+
+
+            </div>
+
 
         </div>
 
@@ -120,6 +140,8 @@ use MyWebsite\Pages\SkillAssesmentPage;
                         <li>Vous traversez une phase difficile liée au travail</li>
                         <li>Vous avez besoin de donner un nouveau sens à votre vie</li>
                         <li>Vous ressentez l'envie de donner un nouvel élan à votre carrière</li>
+                        <li>Vous ressentez le besoin d'être accompagnée pour allier à la fois votre grossesse/maternité/carrière</li>
+                        <li>Vous avez besoin de soutien dans votre reprise du travail suite à votre congé maternité/parental</li>
                     </ul>
                     <p class="mt-4 has-text-centered"><a class="button is-primary has-text-white" href="<?php echo HomePage::DOCTOLIB_LINK ?>">Prendre rendez-vous</a></p>
                 </div>
@@ -143,7 +165,7 @@ use MyWebsite\Pages\SkillAssesmentPage;
                     <div class="message-body has-primary-background content is-size-5" style="min-height: 300px;background-color:#f8f5f2">
 
                         <ul class="mt-0 has-text-justified">
-                            <li>Je vous reçois au cabinet situé à Vincennes (94) mais aussi en visio, n’hésitez
+                            <li>Je vous reçois au cabinet situé à Vincennes et à Nogent-sur-Marne (94) mais aussi en visio, n’hésitez
                                 pas à me <a class="has-text-primary" style="text-decoration: none" href="<?php echo ContactPage::FILENAME ?>">contacter</a> pour plus d’informations.</li>
 
 
@@ -171,6 +193,8 @@ use MyWebsite\Pages\SkillAssesmentPage;
                         <ul class="mt-0 has-text-justified">
                             <li>Consultation psychologique : 70€ entre 45 min et 1h (prise en charge possible par certaines mutuelles)</li>
                             <li>Bilan de compétences : peut être 100% financé par le CPF</li>
+                            <li>Atelier Maternité & Travail : 50 €</li>
+
                         </ul>
                         <p>&nbsp;</p>
                     </div>

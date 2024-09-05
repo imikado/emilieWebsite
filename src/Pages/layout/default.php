@@ -123,7 +123,7 @@
 
         <p>Psychologue du travail</p>
 
-        <p>Adeli: 949334213</p>
+        <p>RPPS : 10008510157</p>
 
         <p><a class="button is-default has-text-black is-small has-background-white" href="https://www.codededeontologiedespsychologues.fr/IMG/pdf/Code_deontologie_psychologue_9-09-2021.pdf" class="is-link">Code de déontologie</a></p>
 
@@ -134,6 +134,7 @@
 
         <p>Psychologie du travail</p>
         <p>Bilan de compétences</p>
+        <p>Atelier Maternité & Travail</p>
 
         <p class="mt-2"><a class="button is-default has-text-primary is-small has-background-white" href="<?php echo HomePage::DOCTOLIB_LINK ?>">Prendre rendez-vous</a></p>
 
@@ -162,6 +163,16 @@
               <i class="fas fa-map-marker-alt"></i>
             </span>
             <span> <a class="is-link has-text-primary" href="mailto:emilie.pereira.lam.pro@gmail.com">9 rue de l'Egalité, 94300 Vincennes</a></span>
+
+
+          </span></p>
+
+
+        <p><span class="icon-text">
+            <span class="icon">
+              <i class="fas fa-map-marker-alt"></i>
+            </span>
+            <span> <a class="is-link has-text-primary" href="mailto:emilie.pereira.lam.pro@gmail.com">Maternescence - 39, rue Jacques Kable 94130 Nogent-Sur-Marne </a></span>
           </span></p>
 
 
