@@ -30,6 +30,10 @@
             <a href="https://fr.freepik.com/photos-gratuite/vue-dessus-papeterie-materiau-naturel_13182475.htm#from_view=detail_alsolike">Freepik</a>
         </li>
 
+
+        <li><a href="https://fr.freepik.com/photos-gratuite/assortiment-papeterie-materiau-naturel_13182496.htm#from_view=detail_alsolike">Image de freepik</a></li>
+
+
         <li>
             <a href="https://fr.freepik.com/photos-gratuite/mains-gens-affaires-discutant-rapports-marketing-presentation-tablette_2448653.htm#fromView=search&page=5&position=3&uuid=c2cbb809-0dce-4807-a0e3-cdceb7bba4f5">Image de katemangostar</a> sur Freepik
         </li>
