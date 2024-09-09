@@ -136,16 +136,31 @@ use MyWebsite\Pages\HomePage;
         </div>
 
 
+        <?php $partnerList = [
+
+            'partenaireOPYXIS.png' => 'https://opyxis.fr/bilan-de-competences-vincennes/',
+
+            'partenaireArtusRH.png' => 'https://artus-rh.com/bilan-de-competences/comment-se-deroule-un-bilan-de-competences/',
+            // 'partenaire_sprintFormation.png' => '',
+
+        ] ?>
 
 
         <div class="columns">
             <div class="column ">
-                <?php foreach ([
-                    'partenaireOPYXIS.png',
-                    'partenaireArtusRH.png',
-                    'partenaire_sprintFormation.png'
-                ] as $partnerLoop) : ?>
-                    <img class="mr-2 ml-2" src="css/images/<?php echo $partnerLoop ?>?time=<?php echo date('Ymdhi') ?>" />
+                <?php foreach (
+                    [
+                        'partenaireOPYXIS.png',
+                        'partenaireArtusRH.png',
+                        'partenaire_sprintFormation.png'
+                    ] as $partnerLoop
+                ) : ?>
+                    <?php if (isset($partnerList[$partnerLoop])): ?>
+                        <a href="<?php echo $partnerList[$partnerLoop] ?>" target="_blank"><img class="mr-2 ml-2" src="css/images/<?php echo $partnerLoop ?>?time=<?php echo date('Ymdhi') ?>" /></a>
+                    <?php else: ?>
+                        <img class="mr-2 ml-2" src="css/images/<?php echo $partnerLoop ?>?time=<?php echo date('Ymdhi') ?>" />
+                    <?php endif; ?>
+
                 <?php endforeach; ?>
 
             </div>

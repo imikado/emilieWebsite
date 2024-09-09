@@ -103,7 +103,7 @@ use MyWebsite\Pages\SkillAssesmentPage;
                 <div class="card">
                     <div class="card-image">
                         <figure class="image is-4by3">
-                            <img src="css/images/home_bilanDeCompetences.jpg" alt="Placeholder image" />
+                            <img src="css/images/home_materniteEtTravail.jpg" alt="Placeholder image" />
                         </figure>
                     </div>
 
