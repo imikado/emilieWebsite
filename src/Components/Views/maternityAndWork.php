@@ -142,7 +142,7 @@ use MyWebsite\Pages\HomePage;
         <div class="block  has-text-justified ml-2 mr-2">
             <p>
 
-                Hommes et femmes, suivons les mêmes études, obtenons les mêmes diplômes et travaillons dans les mêmes entreprises. Pourtant, des <strong class="has-text-primary">inégalités</strong> et des <strong class="has-text-primary">discriminations</strong> à l’encontre des femmes se manifestent dès la 1ère grossesse. Et comme le souligne cet article de Les Echos, « Les femmes doivent encore choisir entre leur carrière et leur maternité ! » (2022).
+                Hommes et femmes, suivons les mêmes études, obtenons les mêmes diplômes et travaillons dans les mêmes entreprises. Pourtant, des <strong class="has-text-primary">inégalités</strong> et des <strong class="has-text-primary">discriminations</strong> à l’encontre des femmes se manifestent dès la 1ère grossesse. Et comme le souligne cet <a class="emphase has-text-primary" href="https://www.lesechos.fr/idees-debats/cercle/opinion-les-femmes-doivent-encore-choisir-entre-carriere-et-maternite-1405135" target="_blank">article</a> de Les Echos, « Les femmes doivent encore choisir entre leur carrière et leur maternité ! » (2022).
 
             </p>
             <p>

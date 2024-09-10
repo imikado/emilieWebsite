@@ -10,7 +10,7 @@ use MyWebsite\Components\ViewComponent;
 class HomePage extends PageAbstract implements PageInterface
 {
     const FILENAME = 'index.html';
-    const DOCTOLIB_LINK = 'https://www.doctolib.fr/psychologue/vincennes/emilie-pereira-vincennes/booking/motives?specialityId=14&amp;telehealth=false&amp;placeId=practice-522234&amp;bookingFunnelSource=profile';
+    const DOCTOLIB_LINK = 'https://www.doctolib.fr/psychologue/vincennes/emilie-pereira-vincennes?pid=practice-522234';
 
     public function getFilename(): string
     {

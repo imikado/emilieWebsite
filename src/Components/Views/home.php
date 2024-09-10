@@ -2,6 +2,7 @@
 
 use MyWebsite\Pages\ContactPage;
 use MyWebsite\Pages\HomePage;
+use MyWebsite\Pages\MaternityAndWorkPage;
 use MyWebsite\Pages\PsyOfWorkPage;
 use MyWebsite\Pages\SkillAssesmentPage;
 
@@ -66,7 +67,7 @@ use MyWebsite\Pages\SkillAssesmentPage;
                     </div>
 
                     <footer class="card-footer">
-                        <a title="text du Psychologie du travail" class="card-footer-item has-text-primary has-text-weight-bold is-size-4" href="<?php echo PsyOfWorkPage::FILENAME ?>">
+                        <a title="Psychologie du travail" class="card-footer-item has-text-primary has-text-weight-bold is-size-4" href="<?php echo PsyOfWorkPage::FILENAME ?>">
                             Psychologie du travail</a>
 
                     </footer>
@@ -88,7 +89,7 @@ use MyWebsite\Pages\SkillAssesmentPage;
                     </div>
 
                     <footer class="card-footer">
-                        <a title="text du Psychologie du travail" class="card-footer-item has-text-primary has-text-weight-bold is-size-4" href="<?php echo SkillAssesmentPage::FILENAME ?>">
+                        <a title="Bilan de compétence" class="card-footer-item has-text-primary has-text-weight-bold is-size-4" href="<?php echo SkillAssesmentPage::FILENAME ?>">
                             Bilan de compétence
                         </a>
 
@@ -108,7 +109,7 @@ use MyWebsite\Pages\SkillAssesmentPage;
                     </div>
 
                     <footer class="card-footer">
-                        <a title="text du Psychologie du travail" class="card-footer-item has-text-primary has-text-weight-bold is-size-4" href="<?php echo SkillAssesmentPage::FILENAME ?>">
+                        <a title="Atelier Maternité & travail" class="card-footer-item has-text-primary has-text-weight-bold is-size-4" href="<?php echo MaternityAndWorkPage::FILENAME ?>">
                             Atelier Maternité & Travail
                         </a>
 
