@@ -1,0 +1,59 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "72426a8d0f1df98666bceb13cc68fe3e",
+    "packages": [
+        {
+            "name": "dupot/static-generation-framework",
+            "version": "2.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/imikado/dupotStaticGenerationFramework.git",
+                "reference": "08f332a07e1ffd7a872d0f8f03db2b71cf5c1ace"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/imikado/dupotStaticGenerationFramework/zipball/08f332a07e1ffd7a872d0f8f03db2b71cf5c1ace",
+                "reference": "08f332a07e1ffd7a872d0f8f03db2b71cf5c1ace",
+                "shasum": ""
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Dupot\\StaticGenerationFramework\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "LGPL-3.0-only"
+            ],
+            "authors": [
+                {
+                    "name": "Michael Bertocchi",
+                    "email": "imikado@gmail.com",
+                    "homepage": "https://www.dupot.org",
+                    "role": "Developer"
+                }
+            ],
+            "description": "framework to generate static website",
+            "homepage": "https://www.dupot.org",
+            "support": {
+                "issues": "https://github.com/imikado/dupotStaticGenerationFramework/issues",
+                "source": "https://github.com/imikado/dupotStaticGenerationFramework/tree/2.0.0"
+            },
+            "time": "2022-11-12T14:07:58+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": [],
+    "plugin-api-version": "2.3.0"
+}
