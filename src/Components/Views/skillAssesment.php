@@ -152,7 +152,7 @@ use MyWebsite\Pages\HomePage;
                     [
                         'partenaireOPYXIS.png',
                         'partenaireArtusRH.png',
-                        'partenaire_sprintFormation.png'
+                        //'partenaire_sprintFormation.png'
                     ] as $partnerLoop
                 ) : ?>
                     <?php if (isset($partnerList[$partnerLoop])): ?>

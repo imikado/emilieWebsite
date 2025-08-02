@@ -192,7 +192,7 @@ use MyWebsite\Pages\SkillAssesmentPage;
                     </div>
                     <div class="message-body content is-size-5" style="min-height: 300px;background-color:#f8f5f2">
                         <ul class="mt-0 has-text-justified">
-                            <li>Consultation psychologique : 70€ entre 45 min et 1h (prise en charge possible par certaines mutuelles)</li>
+                            <li>Consultation psychologique : 80€ entre 45 min et 1h (prise en charge possible par certaines mutuelles)</li>
                             <li>Bilan de compétences : peut être 100% financé par le CPF</li>
                             <li>Atelier Maternité & Travail : 50 €</li>
 
