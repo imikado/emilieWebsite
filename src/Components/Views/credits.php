@@ -45,6 +45,16 @@
 
         <li>Propulsé par le framework de génération : <a href="https://github.com/imikado/dupotStaticGenerationFramework">Dupot Static Generation Framework</a></li>
 
+
+        <li><a href="https://fr.freepik.com/photos-gratuite/composition-papeterie-materiau-naturel_13182447.htm">Image de freepik</a></li>
+
+
+
+        <li><a href="https://fr.freepik.com/photos-gratuite/fille-regarder-carte-derriere-coup_8618765.htm">Image de freepik</a></li>
+
+
+
+
     </ul>
 
 </div>

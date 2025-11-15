@@ -7,6 +7,7 @@ use Dupot\StaticGenerationFramework\Component\ComponentInterface;
 use MyWebsite\Pages\BioPage;
 use MyWebsite\Pages\ContactPage;
 use MyWebsite\Pages\HomePage;
+use MyWebsite\Pages\ImpulseAssessmentPage;
 use MyWebsite\Pages\MaternityAndWorkPage;
 use MyWebsite\Pages\PsyOfWorkPage;
 use MyWebsite\Pages\SkillAssesmentPage;
@@ -28,6 +29,7 @@ class NavComponent extends ComponentAbstract implements ComponentInterface
             'Votre Psy' => BioPage::FILENAME,
             'Psychologie du travail' => PsyOfWorkPage::FILENAME,
             'Bilan de compétences' => SkillAssesmentPage::FILENAME,
+            'Bilan impulsion' => ImpulseAssessmentPage::FILENAME,
             'Maternité & Travail' => MaternityAndWorkPage::FILENAME,
             'Contact' => ContactPage::FILENAME
         ];

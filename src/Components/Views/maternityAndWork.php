@@ -57,7 +57,7 @@ use MyWebsite\Pages\HomePage;
                     </p>
 
                     <p>
-                        <span class="emphase">Quand on devient mère</span>, on comprend que l'on va devoir composer et jongler avec ce nouveau rôle : comment faire pour tout concilier ? comment s'organiser ? comment faire face aux injonctions et obligations que notre entorage nous impose ou qu'on s'impose ?
+                        <span class="emphase">Quand on devient mère</span>, on comprend que l'on va devoir composer et jongler avec ce nouveau rôle : comment faire pour tout concilier ? comment s'organiser ? comment faire face aux injonctions et obligations que notre entourage nous impose ou qu'on s'impose ?
                     </p>
                 </div>
             </div>

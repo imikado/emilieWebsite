@@ -2,6 +2,7 @@
 
 use MyWebsite\Pages\ContactPage;
 use MyWebsite\Pages\HomePage;
+use MyWebsite\Pages\ImpulseAssessmentPage;
 use MyWebsite\Pages\MaternityAndWorkPage;
 use MyWebsite\Pages\PsyOfWorkPage;
 use MyWebsite\Pages\SkillAssesmentPage;
@@ -56,68 +57,66 @@ use MyWebsite\Pages\SkillAssesmentPage;
 
         <div class="columns">
 
-            <div class="column">
+
+            <?php
+            $cardList = [
+                (object)[
+                    'image' => 'bandeau_psychoDuTravail.jpg',
+                    'title' => 'Psychologie du travail',
+                    'link' => PsyOfWorkPage::FILENAME
+                ],
+
+                (object)[
+                    'image' => 'home_bilanDeCompetences.jpg',
+                    'title' => 'Bilan de compétence',
+                    'link' => SkillAssesmentPage::FILENAME
+                ],
+
+                (object)[
+                    'image' => 'home_bilanImpulsion.jpg',
+                    'title' => 'Bilan impulsion',
+                    'link' => ImpulseAssessmentPage::FILENAME
+                ],
+
+                (object)[
+                    'image' => 'home_materniteEtTravail.jpg',
+                    'title' => 'Atelier Maternité & travail',
+                    'link' => MaternityAndWorkPage::FILENAME
+                ],
 
 
-                <div class="card">
-                    <div class="card-image">
-                        <figure class="image is-4by3">
-                            <img src="css/images/bandeau_psychoDuTravail.jpg" alt="Placeholder image" />
-                        </figure>
+            ];
+
+            ?>
+
+            <?php foreach ($cardList as $cardLoop): ?>
+                <!-- bloc card -->
+                <div class="column">
+
+                    <div class="card">
+                        <div class="card-image">
+                            <figure class="image is-4by3">
+                                <img src="css/images/<?php echo $cardLoop->image ?>" alt="Placeholder image" />
+                            </figure>
+                        </div>
+
+                        <footer class="card-footer">
+                            <a title="<?php echo $cardLoop->title ?>" class="card-footer-item has-text-primary has-text-weight-bold is-size-4" href="<?php echo $cardLoop->link ?>">
+                                <?php echo $cardLoop->title ?> <br />En savoir +</a>
+
+                        </footer>
                     </div>
 
-                    <footer class="card-footer">
-                        <a title="Psychologie du travail" class="card-footer-item has-text-primary has-text-weight-bold is-size-4" href="<?php echo PsyOfWorkPage::FILENAME ?>">
-                            Psychologie du travail</a>
-
-                    </footer>
                 </div>
+                <!-- end bloc card -->
+
+            <?php endforeach; ?>
 
 
 
-            </div>
 
 
 
-            <div class="column">
-
-                <div class="card">
-                    <div class="card-image">
-                        <figure class="image is-4by3">
-                            <img src="css/images/home_bilanDeCompetences.jpg" alt="Placeholder image" />
-                        </figure>
-                    </div>
-
-                    <footer class="card-footer">
-                        <a title="Bilan de compétence" class="card-footer-item has-text-primary has-text-weight-bold is-size-4" href="<?php echo SkillAssesmentPage::FILENAME ?>">
-                            Bilan de compétence
-                        </a>
-
-                    </footer>
-                </div>
-
-
-            </div>
-
-            <div class="column">
-
-                <div class="card">
-                    <div class="card-image">
-                        <figure class="image is-4by3">
-                            <img src="css/images/home_materniteEtTravail.jpg" alt="Placeholder image" />
-                        </figure>
-                    </div>
-
-                    <footer class="card-footer">
-                        <a title="Atelier Maternité & travail" class="card-footer-item has-text-primary has-text-weight-bold is-size-4" href="<?php echo MaternityAndWorkPage::FILENAME ?>">
-                            Atelier Maternité & Travail
-                        </a>
-
-                    </footer>
-                </div>
-
-
-            </div>
 
 
         </div>
@@ -140,7 +139,8 @@ use MyWebsite\Pages\SkillAssesmentPage;
                     <ul>
                         <li>Vous traversez une phase difficile liée au travail</li>
                         <li>Vous avez besoin de donner un nouveau sens à votre vie</li>
-                        <li>Vous ressentez l'envie de donner un nouvel élan à votre carrière</li>
+                        <li>Vous ressentez l'envie de donner un (nouvel) élan à votre carrière</li>
+                        <li>Vous avez besoin d’être guidé(e) pour y voir plus clair sur votre orientation, votre avenir professionnel</li>
                         <li>Vous ressentez le besoin d'être accompagnée pour allier à la fois votre grossesse/maternité/carrière</li>
                         <li>Vous avez besoin de soutien dans votre reprise du travail suite à votre congé maternité/parental</li>
                     </ul>
@@ -194,6 +194,7 @@ use MyWebsite\Pages\SkillAssesmentPage;
                         <ul class="mt-0 has-text-justified">
                             <li>Consultation psychologique : 80€ entre 45 min et 1h (prise en charge possible par certaines mutuelles)</li>
                             <li>Bilan de compétences : peut être 100% financé par le CPF</li>
+                            <li>Bilan impulsion: tarif sur demande</li>
                             <li>Atelier Maternité & Travail : 50 €</li>
 
                         </ul>
