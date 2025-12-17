@@ -27,8 +27,12 @@ use MyWebsite\Pages\HomePage; ?>
 
             <div class="column content">
 
-                <div class="block has-text-justified	">
-                    <h2 class="subtitle has-text-primary">« Quel métier est fait pour moi ? », « Quel métier pourrait me correspondre ? », « Qu’est-ce qui pourrait me convenir ? », <br />« Qu’est-ce que je vais devenir ? »</h2>
+                <div class="block has-text-justified">
+                    <p class="has-text-weight-bold">
+                        « Quel métier est fait pour moi ? », <br />
+                        « Quel métier pourrait me correspondre ? »,<br />
+                        « Qu’est-ce qui pourrait me convenir ? », <br />
+                        « Qu’est-ce que je vais devenir ? » </p>
 
                     <p>On s’est tous déjà posé ces questions un jour, à l’école, au collège, au lycée, à l’université… </p>
 
@@ -49,10 +53,10 @@ use MyWebsite\Pages\HomePage; ?>
                         <li>Mais avant tout, est-ce que je sais réellement en quoi ce métier consiste ?</li>
                     </ul>
 
-                    <p>Faire ses choix en fonction des autres, de ce que l’on attend de toi… ou de ce que toi, tu veux réellement… <span class="emphase">ça n’a rien à voir !</span></p>
-                    <p>Mais <span class="emphase">comment savoir ce que l’on veut quand on ne sait pas… </span> faire des choix quand c’est déjà confus dans sa tête ?</p>
+                    <p>Faire ses choix en fonction des autres, de ce que l’on attend de toi… ou de ce que toi, tu veux réellement… <span class="has-text-weight-bold">ça n’a rien à voir !</span></p>
+                    <p>Mais <span class="has-text-weight-bold">comment savoir ce que l’on veut quand on ne sait pas… </span> faire des choix quand c’est déjà confus dans sa tête ?</p>
 
-                    <p>Prendre le temps de se poser, de réfléchir de manière constructive, s’outiller, c’est déjà se <span class="emphase">donner la chance</span> d’exercer un métier qui nous ressemble davantage. </p>
+                    <p>Prendre le temps de se poser, de réfléchir de manière constructive, s’outiller, c’est déjà se <span class="has-text-weight-bold">donner la chance</span> d’exercer un métier qui nous ressemble davantage. </p>
 
 
                 </div>
@@ -81,7 +85,7 @@ use MyWebsite\Pages\HomePage; ?>
                 Avec<a class="has-text-primary" href="https://www.doctolib.fr/psychologue/nogent-sur-marne/marie-claire-andonissamy"> Marie-Claire</a> on t’accompagne en tant que neuropsychologue et psychologue du travail, à y voir plus clair, sur toi-même, et à définir un projet pour la suite qui te ressemble davantage !</p>
 
 
-            <p>Il s’agit de <span class="emphase"> mieux te connaître</span> (tant sur ta personnalité, tes intérêts que tes forces et faiblesses) pour pouvoir <span class="emphase">mieux choisir</span> et donner l’<span class="emphase">élan</span> à ton projet.</p>
+            <p>Il s’agit de <span class="has-text-weight-bold"> mieux te connaître</span> (tant sur ta personnalité, tes intérêts que tes forces et faiblesses) pour pouvoir <span class="has-text-weight-bold">mieux choisir</span> et donner l’<span class="has-text-weight-bold">élan</span> à ton projet.</p>
 
 
 

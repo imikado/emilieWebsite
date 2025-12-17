@@ -72,11 +72,12 @@ use MyWebsite\Pages\SkillAssesmentPage;
                     'link' => SkillAssesmentPage::FILENAME
                 ],
 
+                /*
                 (object)[
                     'image' => 'home_bilanImpulsion.jpg',
                     'title' => 'Bilan impulsion',
                     'link' => ImpulseAssessmentPage::FILENAME
-                ],
+                ],*/
 
                 (object)[
                     'image' => 'home_materniteEtTravail.jpg',
