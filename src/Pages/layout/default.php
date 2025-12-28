@@ -134,6 +134,7 @@
 
         <p>Psychologie du travail</p>
         <p>Bilan de compétences</p>
+        <p>Bilan impulsion</p>
         <p>Atelier Maternité & Travail</p>
 
         <p class="mt-2"><a class="button is-default has-text-primary is-small has-background-white" href="<?php echo HomePage::DOCTOLIB_LINK ?>">Prendre rendez-vous</a></p>
