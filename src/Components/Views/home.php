@@ -25,7 +25,7 @@ use MyWebsite\Pages\SkillAssesmentPage;
 
             <div class="column"></div>
 
-            <div class="column is-three-fifths has-text-centered">
+            <div class="column is-four-fifths has-text-centered">
                 <h1 class="title has-text-primary">Bienvenue !</h1>
 
                 <div class="block is-size-2 content emphase">
@@ -68,16 +68,62 @@ use MyWebsite\Pages\SkillAssesmentPage;
 
                 (object)[
                     'image' => 'home_bilanDeCompetences.jpg',
-                    'title' => 'Bilan de compétence',
+                    'title' => 'Bilan de compétences',
                     'link' => SkillAssesmentPage::FILENAME
                 ],
 
-                /*
+
+
+            ];
+
+            ?>
+
+            <?php foreach ($cardList as $cardLoop): ?>
+                <!-- bloc card -->
+                <div class="column">
+
+                    <div class="card">
+                        <div class="card-image">
+                            <figure class="image is-3by2">
+                                <img src="css/images/<?php echo $cardLoop->image ?>" alt="Placeholder image" />
+                            </figure>
+                        </div>
+
+                        <footer class="card-footer">
+                            <a title="<?php echo $cardLoop->title ?>" class="card-footer-item has-text-primary has-text-weight-bold is-size-4" href="<?php echo $cardLoop->link ?>">
+                                <?php echo $cardLoop->title ?> <br />En savoir +</a>
+
+                        </footer>
+                    </div>
+
+                </div>
+                <!-- end bloc card -->
+
+            <?php endforeach; ?>
+
+
+
+
+
+
+
+
+        </div>
+
+
+        <div class="columns">
+
+
+            <?php
+            $cardList = [
+
+
+
                 (object)[
                     'image' => 'home_bilanImpulsion.jpg',
                     'title' => 'Bilan impulsion',
                     'link' => ImpulseAssessmentPage::FILENAME
-                ],*/
+                ],
 
                 (object)[
                     'image' => 'home_materniteEtTravail.jpg',
@@ -132,18 +178,18 @@ use MyWebsite\Pages\SkillAssesmentPage;
 
             <div class="column"></div>
 
-            <div class="column is-half has-text-justified">
+            <div class="column is-four-fifths has-text-justified">
 
                 <div class="block is-size-5 content has-text-justified">
 
-                    <p>Vous êtes en situation d'emploi ou en période d'inactivité :</p>
+                    <p>Vous êtes en situation d'emploi / en étude / en période d'inactivité, et :</p>
                     <ul>
                         <li>Vous traversez une phase difficile liée au travail</li>
                         <li>Vous avez besoin de donner un nouveau sens à votre vie</li>
                         <li>Vous ressentez l'envie de donner un (nouvel) élan à votre carrière</li>
                         <li>Vous avez besoin d’être guidé(e) pour y voir plus clair sur votre orientation, votre avenir professionnel</li>
-                        <li>Vous ressentez le besoin d'être accompagnée pour allier à la fois votre grossesse/maternité/carrière</li>
-                        <li>Vous avez besoin de soutien dans votre reprise du travail suite à votre congé maternité/parental</li>
+                        <li>Vous ressentez le besoin d'être accompagnée pour allier à la fois votre grossesse / maternité / carrière</li>
+                        <li>Vous avez besoin de soutien dans votre reprise du travail suite à votre congé maternité / parental</li>
                     </ul>
                     <p class="mt-4 has-text-centered"><a class="button is-primary has-text-white" href="<?php echo HomePage::DOCTOLIB_LINK ?>">Prendre rendez-vous</a></p>
                 </div>
